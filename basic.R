@@ -3,13 +3,14 @@ library(RMySQL)
 drv = dbDriver("MySQL")
 con = dbConnect(drv,host="127.0.0.1",dbname="eth",user="root",pass="1234")
 
-
 #1
-query <- "select count(*) from combined"
+query <- "select count(*)
+,round(sum(if(pr_status ='merged',1,0))/count(*),2) as merge_rate
+from combined"
 cnt_all_pr = dbGetQuery(con,statement=query)
-print(sprintf("all_pull_requset = %s",cnt_all_pr))
+print(sprintf("all_pull_requset = %s merge_rate = %s",cnt_all_pr[1,1],cnt_all_pr[1,2]))
 
-#2
+#2 #7
 query <- "select prs_country
 ,count(pr_id)
 from combined
@@ -19,7 +20,7 @@ for(i in 1:nrow(cnt_each_country_pr)){
   print(sprintf("country : %s  cnt : %s",cnt_each_country_pr[i,1],cnt_each_country_pr[i,2]))
 }
 
-#3 
+#3 #12
 query <- "select repo_name
 ,count(pr_id)
 from combined
@@ -30,14 +31,13 @@ for(i in 1:nrow(cnt_repo_pr)){
 }
 
 #4
-query <- "select prs_id
-,sum(num_comments)
-from combined
-group by prs_id"
+query <- "select pri_id, 
+count(pr_id)
+from (select prm_id as pri_id, pr_id from combined where pr_status ='merged'
+union select prc_id as pri_id, pr_id from combined where pr_status != 'opened')pri
+group by pri_id"
 cnt_reviewed_pr = dbGetQuery(con, statement = query)
-for(i in 1:nrow(cnt_reviewed_pr)){
-  print(sprintf("prs_id : %s  comments_cnt : %s",cnt_reviewed_pr[i,1],cnt_reviewed_pr[i,2]))
-}
+
 
 #5
 print("What is the start and end date of the activities captured in the dataset?")
@@ -47,8 +47,108 @@ query<-"select from_unixtime(min(created_at)) created_at_min
 ,from_unixtime(max(merged_at)) merged_at_max
 ,from_unixtime(min(closed_at)) closed_at_min
 ,from_unixtime(max(closed_at)) closed_at_max
-from pull_request_data
+from combined
 "
 act_st_end = dbGetQuery(con, statement = query)
-print(sprintf("create start : %s end : %s // merged start : %s end : %s // closed start : %s end : %s ",
-              act_st_end[,1],act_st_end[,2],act_st_end[,3],act_st_end[,4],act_st_end[,5],act_st_end[,6]))
+
+#8
+print("How many pull requsets are evalutated per country?")
+query <-"select pri_country
+,count(pr_id)
+from (select prm_country as pri_country, pr_id from combined where pr_status ='merged'
+union select prc_country as pri_country, pr_id from combined where pr_status != 'opened')as pri
+group by pri_country"
+cnt_eval_pr = dbGetQuery(con, statement = query)
+
+#9 #10
+print("What  is the pull requset acceptance rate when the pull requests are divided based on the country of submitter?")
+query <- "select prs_country
+,round(sum(if(pr_status='merged',1,0))/count(pr_id)*100,2) as merge_rate
+from combined
+group by prs_country"
+country_merge_rate = dbGetQuery(con, statement = query)
+
+#11
+print("how many projects are analyzed?")
+query <- "select repo_name
+count(pr_id)
+from combined
+group by repo_name"
+cnt_repo = dbGetQuery(con, statement = query)
+
+#13
+print("how many developers woerk for each projects")
+query <- "select repo_name
+,count(distinct dev_id)
+from (select repo_name, prs_id as dev_id from combined
+union select repo_name, prm_id as dev_id from combined where prm_id is not null
+union select repo_name, prs_id as dev_id from combined where prc_id is not null)t
+group by repo_name"
+cnt_dev_project = dbGetQuery(con, statement = query)
+
+#14
+print("WHat is the pull request acceptance rate per project?")
+query <- "select repo_name
+,round(sum(if(pr_status='merged',1,0))/count(pr_id)*100,2) as merge_rate
+from combined
+group by repo_name"
+repo_merge_rate = dbGetQuery(con, statement = query)
+
+#15
+print("What is the average time to merge a pull request per project?")
+query <- "select avg(lifetime_minutes) 
+from combined
+where pr_status ='merged'"
+avg_merge_time = dbGetQuery(con, statement = query)
+
+#16
+print("What is the average time to close a pull request per project?")
+query <- "select avg(lifetime_minutes) 
+from combined
+where pr_status ='closed'"
+avg_close_time = dbGetQuery(con, statement = query)
+
+#18 #19
+print("How many pull requests are submitted by each develper?")
+query <- "select prs_id 
+,count(pr_id) cnt_pr
+,round(sum(if(pr_status='merged',1,0))/count(pr_id)*100,2) as merge_rate
+from combined 
+group by prs_id"
+cnt_prs_pr = dbGetQuery(con, statement = query)
+
+#20
+print("How many developers work as submitters for each country?")
+query <- "select prs_country
+,count(distinct prs_id)
+from combined
+group by prs_country"
+cnt_prs_country = dbGetQuery(con, statement = query)
+
+#21
+print("How many developers work as integrators for each country?")
+query <- "select pri_country
+,count(distinct pri_id)
+from (select prm_id as pri_id, prm_country as pri_country from combined where prm_id is not null
+union select prc_id as pri_id, prc_country as prc_country from combined where prc_id is not null)pri
+group by pri_country"
+cnt_pri_country = dbGetQuery(con, statement = query)
+
+#22
+print("Developers from how many countries work for each project?")
+query <-"select repo_name
+,count(distinct dev_country)
+from (select repo_name, prs_country as dev_country from combined 
+union select repo_name, prm_country as dev_country from combined where prm_country is not null
+union select repo_name, prc_country as dev_country from combined where prc_country is not null)dev
+group by repo_name"
+cnt_repo_country = dbGetQuery(con, statement = query)
+
+#23
+print("For integrators of each country, what is the pull request acceptance rate for every other country?")
+query <-"select pri_country
+,round(sum(if(pr_status ='merged',1,0))/count(pr_id)*100,2) merge_rate
+from( select prm_country as pri_country, pr_id, pr_status from combined where prm_country is not null
+union select prc_country as pri_country, pr_id, pr_status from combined where prc_country is not null)pri_country
+group by pri_country"
+pri_country_merge_rate= dbGetQuery(con, statement = query)
