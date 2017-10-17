@@ -11,8 +11,8 @@ cnt_all_pr = dbGetQuery(con,statement=query)
 print(sprintf("all_pull_requset = %s merge_rate = %s",cnt_all_pr[1,1],cnt_all_pr[1,2]))
 
 #2 #7
-query <- "select prs_country
-,count(pr_id)
+query <- "select prs_country as country
+,count(pr_id) as submit
 from combined
 group by prs_country"
 cnt_each_country_pr = dbGetQuery(con, statement = query)
@@ -53,16 +53,20 @@ act_st_end = dbGetQuery(con, statement = query)
 
 #8
 print("How many pull requsets are evalutated per country?")
-query <-"select pri_country
-,count(pr_id)
+query <-"select pri_country as country
+,count(pr_id) as eval
 from (select prm_country as pri_country, pr_id from combined where pr_status ='merged'
 union select prc_country as pri_country, pr_id from combined where pr_status != 'opened')as pri
 group by pri_country"
 cnt_eval_pr = dbGetQuery(con, statement = query)
 
+#What country has the largest number of differece between submission an evaluation
+m_eval_submit <- merge(cnt_eval_pr, cnt_each_country_pr, by='country')
+m_eval_submit$sub <- m_eval_submit$submit - m_eval_submit$eval
+
 #9 #10
 print("What  is the pull requset acceptance rate when the pull requests are divided based on the country of submitter?")
-query <- "select prs_country
+query <- "select prs_country as country
 ,round(sum(if(pr_status='merged',1,0))/count(pr_id)*100,2) as merge_rate
 from combined
 group by prs_country"
@@ -71,7 +75,7 @@ country_merge_rate = dbGetQuery(con, statement = query)
 #11
 print("how many projects are analyzed?")
 query <- "select repo_name
-count(pr_id)
+,count(pr_id)
 from combined
 group by repo_name"
 cnt_repo = dbGetQuery(con, statement = query)
@@ -85,6 +89,20 @@ union select repo_name, prm_id as dev_id from combined where prm_id is not null
 union select repo_name, prs_id as dev_id from combined where prc_id is not null)t
 group by repo_name"
 cnt_dev_project = dbGetQuery(con, statement = query)
+
+# how many people are the same person with submitter and merger and submitter and closer from each country?
+query <- "select prs_country as country
+,count(pr_id) as cnt_pr
+,sum(if(prs_id = prm_id,1,0)) s_m_same
+,sum(if(prs_id = prc_id,1,0)) s_c_same
+from combined
+group by prs_country
+having prs_country is not null"
+s_m_c_same = dbGetQuery(con, statement = query)
+
+s_m_c_same$s_m_rate <- round(s_m_c_same$s_m_same / s_m_c_same$cnt_pr *100,2)
+s_m_c_same$s_c_rate <- round(s_m_c_same$s_c_same / s_m_c_same$cnt_pr *100,2)
+s_m_c_same <- merge(s_m_c_same , country_merge_rate, by ='country')
 
 #14
 print("WHat is the pull request acceptance rate per project?")
