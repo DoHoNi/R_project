@@ -109,6 +109,28 @@ Even though Azerbaijan has 84% merge rate and 75 pull requests, but the rate of 
 Croatia is also has 68 pull requests and 82.35% merge rate, but the rate of cases wherer submitter and merger are same is only 0%!
 Generally, when there are many cases where the submitter and the merger are the same, there are many cases where the submitter and the closer are the same. Because if it is merged, the closer is merger.
 But Vietnam has 5% of rate that submitters and mergers are same, even though 57.94% of rate that submitters and closer are same.
+South Africa has 1378 pull requests and 91% merge rate, but rate of what the submitter and the merger are the same is 54.57%
+Poland has 843 pull request and the rate of what submitter and the merger is 3.32%
+
+#14 What is the pull request acceptance rate per project? 
+summary(repo_merge_rate)
+min:0 / 1st qu :43.95 / median :75.38 / Mean : 63.83 / 3rd Qu : 90.12 / Max :100
+There is 56 projects that has 100% merge rate and 103 projects that has 0% merge rate.
+There is 26 projects that has 0% merge rate and more then 30 pull requests.
+There is 10 projects that has 0% merge rate and more then 100 pull requests!!
+
+I would like to find the reason why they have 0% marge rate. 
+So I made new table 'repo_0_merge_rate' that has only repo_name having 0% merge_rate(repo_name), the number of pull requests(cnt_pr_id), the number of submitter(cnt_prs), the number of developer at that project(cnt_dev), the number of case where submitter and closer is same(s_c_same), and rate of the number of case where submitter and closer is same(s_c_rate).
+
+ There is 65 projects out of 103 total projcets that have 100% s_c_rate.
+That mean that pull_requset at over half projects having 0% merge rate is closed by submitterself. 
+The projects has smaller number of developers less then 30, also tends to have small number of pull requests.
+What is unique project is 'Clashnia/Minecraft-Demigods'. That has 151 pull request, but has only 2 developers, 0% merge rate and s_c_rate is 100%.
+Actually I couldn't find out complete reasoon that they has that merge rate.
+but the reason that over helf projcet having 0% merge rate have that merge rate is submitter closed their pull request themselves.
+
+
+
 
 
 

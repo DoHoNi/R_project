@@ -103,6 +103,7 @@ s_m_c_same = dbGetQuery(con, statement = query)
 s_m_c_same$s_m_rate <- round(s_m_c_same$s_m_same / s_m_c_same$cnt_pr *100,2)
 s_m_c_same$s_c_rate <- round(s_m_c_same$s_c_same / s_m_c_same$cnt_pr *100,2)
 s_m_c_same <- merge(s_m_c_same , country_merge_rate, by ='country')
+s_m_c_same$sub_rate <- s_m_c_same$s_c_rate - s_m_c_same$s_m_rate
 
 #14
 print("WHat is the pull request acceptance rate per project?")
@@ -111,6 +112,36 @@ query <- "select repo_name
 from combined
 group by repo_name"
 repo_merge_rate = dbGetQuery(con, statement = query)
+
+repo_merge_rate <- merge(repo_merge_rate, cnt_repo_pr, by ='repo_name')
+repo_0_merge_rate <- repo_merge_rate[repo_merge_rate$merge_rate ==0,]
+repo_merge_rate <- merge(repo_merge_rate, repo_cnt_prs, by = 'repo_name')
+repo_merge_rate <- merge(repo_merge_rate, repo_cnt_dev, by = 'repo_name')
+repo_merge_rate <- merge(repo_merge_rate, repo_s_c_same, by ='repo_name')
+# how many submitter is working per project?
+query <- "select repo_name
+,count(distinct prs_id) cnt_prs
+from combined
+group by repo_name"
+repo_cnt_prs = dbGetQuery(con, statement = query)
+
+#how many developer is working per project?
+query <- "select repo_name
+,count(distinct dev_id) cnt_dev
+from (select repo_name, prs_id as dev_id from combined
+union select repo_name, prm_id as dev_id from combined where prm_id is not null
+union select repo_name, prc_id as dev_id from combined where prc_id is not null)as dev
+group by repo_name"
+repo_cnt_dev = dbGetQuery(con, statement = query)
+
+#how many people who submitter and closer is same is?
+query <- "select repo_name
+,sum(if(prs_id = prc_id,1,0)) s_c_same
+,round(sum(if(prs_id = prc_id,1,0))/count(pr_id)*100,2) s_c_rate
+from combined
+group by repo_name"
+repo_s_c_same = dbGetQuery(con, statement = query)
+
 
 #15
 print("What is the average time to merge a pull request per project?")
