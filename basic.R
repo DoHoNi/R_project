@@ -242,21 +242,26 @@ nrow(cnt_prs_pr[cnt_prs_pr$cnt_pr==1 & cnt_prs_pr$merge_rate==100,]) / 7824 *100
 
 #20
 print("How many developers work as submitters for each country?")
-query <- "select prs_country
-,count(distinct prs_id)
+query <- "select prs_country country
+,count(distinct prs_id) cnt_prs
 from combined
 group by prs_country
 having prs_country is not null"
 cnt_prs_country = dbGetQuery(con, statement = query)
 
+
 #21
 print("How many developers work as integrators for each country?")
-query <- "select pri_country
-,count(distinct pri_id)
+query <- "select pri_country country
+,count(distinct pri_id) cnt_pri
 from (select prm_id as pri_id, prm_country as pri_country from combined where prm_id is not null
 union select prc_id as pri_id, prc_country as prc_country from combined where prc_id is not null)pri
 group by pri_country"
 cnt_pri_country = dbGetQuery(con, statement = query)
+
+country = merge(cnt_each_country_pr ,cnt_eval_pr,  by= 'country')
+country = merge(country, cnt_prs_country, by='country')
+country = merge( country, cnt_pri_country,by ='country')
 
 #22
 print("Developers from how many countries work for each project?")
