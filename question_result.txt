@@ -129,6 +129,79 @@ What is unique project is 'Clashnia/Minecraft-Demigods'. That has 151 pull reque
 Actually I couldn't find out complete reasoon that they has that merge rate.
 but the reason that over helf projcet having 0% merge rate have that merge rate is submitter closed their pull request themselves.
 
+#15 What is the average time to merge a pull request per project?
+#16 What is the average time to close a pull request per project?
+average merge time : 7920.818 min
+summary // min:0 / 1st Qu.: 17 / median : 260 / Mean :7021 / 3rd Qu.:2516 / Max.: 1328549 
+It looks really werid. That summary said 75% pull request is merged within 3000 min(= 50 hour = about 2days)
+So, The mean is 7021, but most of merged pull request is merged in much less time than the average.
+
+average close time : 36343.93 min
+summary // min:0 / lst Qu.:118 / median : 1605 / Mean : 36344 / 3rd Qu.: 16911 / Max. :1460121
+As you can see in the summary report, we can find the close time is clearly longer than merge time.
+But, When I looked the histogram of close time, most of closed pull request also is closed at short time.
+
+I think the time will be shorter if submitter merged or closed the pull reqest themselves.
+So I made that table (15-2 / 16-2)
+
+(15-1 / 15-2)
+first, at the case submitter merged the pull requests themselves, merge times tend to be shorter then merge times in all things. 
+summary // min:0 /1st Qu. : 1 / Median :101 / Mean :4122 / 3rd Qu : 1678 / Max : 990538
+The number of total pull request at this table is 31386. and the number of pull request having 0 merge time is 7075!
+About 23% pull request in that table is merged within 1 min.
+Then what about the case been reversed?
+summary // min:0 / 1st Qu : 33 / Median : 364 / Mean : 8523 / 3rd Qu : 2780 / Max :1328549
+Certainly, you can see that the time for merging by others in noticeably longer.
+
+
+(16-1 / 16-2)
+How about close time?
+at the case submitter closed the pull requests themselves, we can get the result
+summary // min :0 / 1st Qu: 26 / midian : 1010 / mean : 21760 / 3rd Qu: 7518 / Max : 1460121
+and the reverse case.
+summary // min :0 / 1st Qu: 304/ midian : 3072 / mean : 47214 / 3rd Qu : 28932 / Max : 1442847 
+I think the close times that submitter closed themselves seem it doesn't make much difference.
+but the reverse cases seem it takes longer time then close times of all data.
+
+
+#18 #19 How many pull requests are submitted by each developer?(and merged)
+summery about cnt_pr // min :1 / 1st Qu : 1 / Median : 2 / Mean :7 / 3rd Qu : 4 / Max : 384
+It is really interesting. 
+75% of the total developers submitted pull request just no more than 4 times.
+About 90% of total developer submitted pull request just no more than 10 times.
+Just 1.2% of total developer submitted pull request over than 100 times.
+
+Summary about developers who submitted pull request over than 100 times.
+min :0 / 1st Qu :82.03 / Median : 89.83 / Mean : 81.96 / 3rd Qu. 94.43 / Max :100 
+Most of developers who submitted relatively many pull request have marge rate of 80 or more.
+
+How about developer who submitted pull request no more than 100 times and over than 1
+(I think developer who submitted one pull request has extreme value. so I ruled out the developers)
+Summary about them
+min :0 / 1st Qu 33.33 / Median :59.22 / Mean 56.30 / 3rd Qu : 90.48 / Max: 100
+
+That result show that developers who submitted relatively many times tend to have high merge rate and developers who submitted relatively few tiems tend to have low merge rate.
+
+How many pull requests is merged per developers?
+Summary of the merge rate per developers
+Min : 0 / 1st Qu : 0 / Median : 60 / Mean : 53.41 / 3rd Qu : 100 / Max : 100 
+why each 25% of people in total has 0% merge rate or 100% merge rate?
+I guess that many developers submitted very few pull reqests, As you can see the above result.
+So I removed the people who submitted only one pull request.
+the result is
+min : 0 / 1st Qu : 33.33 / Median : 60 / Mean : 56.88 / 3rd Qu : 91.13  / Max : 100 
+And How many people who submitted one pull request has 100 merge rate?
+3848 developers get 100% merge rate. that mean 49% of developers who submitted one pull request get 100% merge rate.
+and 51% of developers who submitted one pull request get 0% merge rate.
+
+#20 How many developers work as submittes for each country?
+there is 123 countries.
+and summary of count is
+Min : 1 / 1st Qu :3 / Median : 12 / Mean :141.1 / 3rd Qu.:66.5 / Max : 6621 
+
+
+
+
 
 
 

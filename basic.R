@@ -118,6 +118,10 @@ repo_0_merge_rate <- repo_merge_rate[repo_merge_rate$merge_rate ==0,]
 repo_merge_rate <- merge(repo_merge_rate, repo_cnt_prs, by = 'repo_name')
 repo_merge_rate <- merge(repo_merge_rate, repo_cnt_dev, by = 'repo_name')
 repo_merge_rate <- merge(repo_merge_rate, repo_s_c_same, by ='repo_name')
+
+nrow(repo_0_merge_rate[repo_0_merge_rate$s_c_rate==100,])
+nrow(repo_0_merge_rate)
+
 # how many submitter is working per project?
 query <- "select repo_name
 ,count(distinct prs_id) cnt_prs
@@ -134,7 +138,7 @@ union select repo_name, prc_id as dev_id from combined where prc_id is not null)
 group by repo_name"
 repo_cnt_dev = dbGetQuery(con, statement = query)
 
-#how many people who submitter and closer is same is?
+#how many pull request is closed by someone who submitter and closer is same is?
 query <- "select repo_name
 ,sum(if(prs_id = prc_id,1,0)) s_c_same
 ,round(sum(if(prs_id = prc_id,1,0))/count(pr_id)*100,2) s_c_rate
@@ -157,6 +161,60 @@ from combined
 where pr_status ='closed'"
 avg_close_time = dbGetQuery(con, statement = query)
 
+#15-1 
+query <- "select pr_id
+,lifetime_minutes 
+from combined
+where pr_status ='merged'"
+each_merge_time = dbGetQuery(con, statement = query)
+tmp <- each_merge_time[each_merge_time$lifetime_minutes <200000,]
+tmp <- each_merge_time[each_merge_time$lifetime_minutes <50000,]
+tmp <- each_merge_time[each_merge_time$lifetime_minutes <30000,]
+tmp <- each_merge_time[each_merge_time$lifetime_minutes <5000,]
+tmp <- each_merge_time[each_merge_time$lifetime_minutes <3000,]
+tmp <- each_merge_time[each_merge_time$lifetime_minutes <500,]
+tmp <- each_merge_time[each_merge_time$lifetime_minutes <100,]
+tmp <- each_merge_time[each_merge_time$lifetime_minutes <50,]
+#15-2
+query<- "select pr_id
+,lifetime_minutes
+from combined
+where pr_status = 'merged' and prs_id = prm_id "
+s_m_merge_time = dbGetQuery(con, statement=query)
+nrow(s_m_merge_time)
+nrow(s_m_merge_time[s_m_merge_time$lifetime_minutes==0,])
+7075/31386*100
+
+#15-2-1
+query<- "select pr_id
+,lifetime_minutes
+from combined
+where pr_status = 'merged' and prs_id != prm_id "
+s_m__merge_time = dbGetQuery(con, statement=query)
+
+
+#16-1
+query <- "select pr_id
+,lifetime_minutes 
+from combined
+where pr_status ='closed'"
+each_close_time = dbGetQuery(con, statement = query)
+tmp <- each_close_time[each_close_time$lifetime_minutes<50000,]
+
+#16-2
+query <- "select pr_id
+,lifetime_minutes 
+from combined
+where pr_status ='closed' and prs_id =prc_id"
+s_c_close_time = dbGetQuery(con, statement = query)
+
+#16-2-1
+query <- "select pr_id
+,lifetime_minutes 
+from combined
+where pr_status ='closed' and prs_id !=prc_id"
+s_c__close_time = dbGetQuery(con, statement = query)
+
 #18 #19
 print("How many pull requests are submitted by each develper?")
 query <- "select prs_id 
@@ -165,13 +223,30 @@ query <- "select prs_id
 from combined 
 group by prs_id"
 cnt_prs_pr = dbGetQuery(con, statement = query)
+nrow(cnt_prs_pr[cnt_prs_pr$cnt_pr <=5, ])
+nrow(cnt_prs_pr[cnt_prs_pr$cnt_pr <=5, ]) / nrow(cnt_prs_pr) *100 
+nrow(cnt_prs_pr[cnt_prs_pr$cnt_pr <=10, ]) / nrow(cnt_prs_pr) *100
+nrow(cnt_prs_pr[cnt_prs_pr$cnt_pr <=20, ]) / nrow(cnt_prs_pr) *100 
+nrow(cnt_prs_pr[cnt_prs_pr$cnt_pr >=100, ]) / nrow(cnt_prs_pr) *100 
+nrow(cnt_prs_pr[cnt_prs_pr$cnt_pr >=100, ])
+tmp <- cnt_prs_pr[cnt_prs_pr$cnt_pr >=100, ]
+tmp <- cnt_prs_pr[cnt_prs_pr$cnt_pr <100,]
+tmp <- cnt_prs_pr[cnt_prs_pr$cnt_pr <100 & cnt_prs_pr$cnt_pr >10,]
+tmp <- cnt_prs_pr[cnt_prs_pr$cnt_pr <100 & cnt_prs_pr$cnt_pr >1,]
+summary(cnt_prs_pr[cnt_prs_pr$cnt_pr>1,])
+summary(cnt_prs_pr[cnt_prs_pr$cnt_pr>2,])
+summary(cnt_prs_pr[cnt_prs_pr$cnt_pr>5,])
+nrow(cnt_prs_pr[cnt_prs_pr$cnt_pr==1 & cnt_prs_pr$merge_rate==100,])
+nrow(cnt_prs_pr[cnt_prs_pr$cnt_pr==1,])
+nrow(cnt_prs_pr[cnt_prs_pr$cnt_pr==1 & cnt_prs_pr$merge_rate==100,]) / 7824 *100
 
 #20
 print("How many developers work as submitters for each country?")
 query <- "select prs_country
 ,count(distinct prs_id)
 from combined
-group by prs_country"
+group by prs_country
+having prs_country is not null"
 cnt_prs_country = dbGetQuery(con, statement = query)
 
 #21
