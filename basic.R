@@ -67,7 +67,7 @@ m_eval_submit$sub <- m_eval_submit$submit - m_eval_submit$eval
 #9 #10
 print("What  is the pull requset acceptance rate when the pull requests are divided based on the country of submitter?")
 query <- "select prs_country as country
-,round(sum(if(pr_status='merged',1,0))/count(pr_id)*100,2) as merge_rate
+,round(sum(if(pr_status='merged',1,0))/count(pr_id)*100,2) as prs_merge_rate
 from combined
 group by prs_country"
 country_merge_rate = dbGetQuery(con, statement = query)
@@ -259,9 +259,10 @@ union select prc_id as pri_id, prc_country as prc_country from combined where pr
 group by pri_country"
 cnt_pri_country = dbGetQuery(con, statement = query)
 
-country = merge(cnt_each_country_pr ,cnt_eval_pr,  by= 'country')
-country = merge(country, cnt_prs_country, by='country')
-country = merge( country, cnt_pri_country,by ='country')
+country = merge(cnt_each_country_pr ,cnt_eval_pr,  by= 'country',all= TRUE)
+country = merge(country, cnt_prs_country, by='country',all= TRUE)
+country = merge( country, cnt_pri_country,by ='country',all= TRUE)
+country$s_m_sub <- country$cnt_prs - country$cnt_pri
 
 #22
 print("Developers from how many countries work for each project?")
@@ -273,11 +274,19 @@ union select repo_name, prc_country as dev_country from combined where prc_count
 group by repo_name"
 cnt_repo_country = dbGetQuery(con, statement = query)
 
+repo <- merge(cnt_repo_country, repo_merge_rate, by='repo_name', all = TRUE)
+repo <- merge(repo, cnt_dev_project, by = 'repo_name',all =TRUE)
+
 #23
 print("For integrators of each country, what is the pull request acceptance rate for every other country?")
-query <-"select pri_country
-,round(sum(if(pr_status ='merged',1,0))/count(pr_id)*100,2) merge_rate
+query <-"select pri_country country
+,round(sum(if(pr_status ='merged',1,0))/count(pr_id)*100,2) pri_merge_rate
 from( select prm_country as pri_country, pr_id, pr_status from combined where prm_country is not null
 union select prc_country as pri_country, pr_id, pr_status from combined where prc_country is not null)pri_country
 group by pri_country"
 pri_country_merge_rate= dbGetQuery(con, statement = query)
+
+country <- merge(country, pri_country_merge_rate, by='country',all=TRUE)
+country <- merge(country, country_merge_rate, by='country',all=TRUE)
+
+

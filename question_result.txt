@@ -198,12 +198,41 @@ and 51% of developers who submitted one pull request get 0% merge rate.
 there is 123 countries.
 and summary of count is
 Min : 1 / 1st Qu :3 / Median : 12 / Mean :141.1 / 3rd Qu.:66.5 / Max : 6621 
+The country with the most submitters is United states(6621)
+the country with secound most submitters is United kingdom(1277)
+there is 59 countries with less then 10 submitters.
+  
 
+#21 How many developers work as integrators for each country?
+There is 104 countries.
+and summary of count is
+Min :1 / 1st Qu :2 / Median : 7 / Mean : 61 / 3rd Qu.:32.25 / Max :2594.00
+The country with the most integrators is United states(2594)
+The country with secound most integrators is united kingdom(499)
 
+#Is there more consolidators than submitters?
+I expected it to be, but strangely, not one country!
+I add the column that has cnt_prs minus cnt_pri. that mean gap between the number of submitters and the numbber of integrators.
+The minimum value of that column is 0. that mean no country has more integrators than submitters.
 
+#22 developers from how many countries work for each project?
+The project with most of particepated countries is rails/rails. There are 70 countries participating in this project  
+the summary is
+Min : 1 / 1st Qu : 2 / Median : 5 / Mean :8.51 / 3rd Qu :13 / Max :70
 
+#Is there any correlation between the number of participating countries and the merging rate?
+count(distinct dev_country) is the number of country per project
+count(distinct dev_id) is the number of devleoper per project.
+ 
+[covariance] cov(repo$`count(distinct dev_country)`,repo$merge_rate) => -21.16686
+[covariance] cov(repo$`count(distinct dev_id)`,repo$merge_rate) => -128.4759
+[correlation coefficient] cor(repo$`count(distinct dev_country)`,repo$merge_rate) =>-0.07178342
+[correlation coefficient] cor(repo$`count(distinct dev_id)`,repo$merge_rate) => -0.05046593
+There is no significant correlation since the correlation coefficient is close to 0.
 
-
-
-
+#23 For integrators of each country, what is the pull request acceptance rate for every other country?
+the number of countries with 100 pri_merge_rate is 3. they are 'Armenia','Jamaica' and 'Trinidad and tobago'
+but they have only one integrators.
+Among the countries with high pri_merge_rate, there is Belgium and Spain in countries with over than 100 integrators.
+Belgium has 164 integrators and Spain has 272 integrators. but they has 89.28% pri_merge_rate and 82.29 merge_rate.
 
