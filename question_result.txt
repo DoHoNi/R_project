@@ -236,3 +236,44 @@ but they have only one integrators.
 Among the countries with high pri_merge_rate, there is Belgium and Spain in countries with over than 100 integrators.
 Belgium has 164 integrators and Spain has 272 integrators. but they has 89.28% pri_merge_rate and 82.29 merge_rate.
 
+#23-1 How many percentage of merging requests from different countries for each country?
+I made over20_s_i_merge_rate to find the valuable value
+That has rows having pull requsets over 20 times
+marge_rate =100 % [ integrator => submitter ]
+	bulgaria -> japan (69)
+	czech republic -> croatia (40)
+	italy -> argentina (24)
+	italy -> finland (24)
+	jersey -> united states (21)
+	latvia -> new zealand (56)
+	romania -> united states (31)
+	south africa -> united states (73)
+	venesuela -> canada (29)
+	venesuela -> japan (30)
+	venesuela -> united states(28)
+
+All pull requests merged by Venezuelans were merged. 
+bulgarians have merged pull requests from Japan, the United States and Bulgaria.
+	In that pull requests, integrated rate of pull requests submitted by Japan is 100%(69) ,
+	by United States is 88.37%(43),
+	by Bulgaria is 48%(31).
+person in czech republic have merged pull requests from croatia, Italy , czech republic, United states, Germany. 
+	In that pull requests, integrated rate of pull request submitted by croatia is 100%(40)
+	by Italy is 80%(21)
+	by Czech republic is 72%(875)
+	by United States 43.9%(82)
+	by Germany 14.81 (27)
+Person in Italy have merged pull requests from Argentina, Finland, Ukraine, russia, germany, united states, japan, united kingdom, italy, france, sweden.
+	For an country with more than 100 pull requets, integrated rate of pull request submitted by united states is 85.47%(117)
+	by United Kingdom is 69.44%(108)
+	by italy is 66.67%(558)
+Person in Jersey have combined pull requests form united states and Jersey. 
+	integrated rate of pull requests submitted by Jersey is 94.7%(191)
+Person in latvia have merged pull requests from New zealand, United states, czech republic, latvia.
+	Integrated rate of pull requests submitted by United states is 80%(90)
+	In this country, only 22%(31) of requests from people in the same country were merged.
+Person is romania have merged pull requests from United states, Romania
+	Integrated rate of pull requests submitted by Romania is 79.96%(449)
+Person is South afreica have merged pull requests from United states, France, South Africa.
+	Integrated rate of pull requests submitted by France is 96.88%(32)
+	and by South africa is 91.55%(876)

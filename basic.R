@@ -1,3 +1,4 @@
+installed.packages("RMySQL")
 library(RMySQL)
 
 drv = dbDriver("MySQL")
@@ -289,4 +290,25 @@ pri_country_merge_rate= dbGetQuery(con, statement = query)
 country <- merge(country, pri_country_merge_rate, by='country',all=TRUE)
 country <- merge(country, country_merge_rate, by='country',all=TRUE)
 
+print("For integrators of each country, what is the pull request acceptance rate for every other country?")
+query <-"select pri_country 
+,prs_country
+,round(sum(if(pr_status ='merged',1,0))/count(pr_id)*100,2) merge_rate
+,count(*) all_cnt
+,sum(if(pr_status='merged',1,0)) merge_cnt
+from( select prs_country ,prm_country as pri_country, pr_id, pr_status from combined where prm_country is not null
+union select prs_country ,prc_country as pri_country, pr_id, pr_status from combined where prc_country is not null)pri_country
+group by pri_country, prs_country"
+prs_pri_country_merge_rate= dbGetQuery(con, statement = query)
 
+
+## prm = prs
+
+query <- "select prm_id
+,prc_id
+,if(prm_id =prc_id, 1, 0) m_c_same
+from combined
+where pr_status = 'merged'"
+m_c_same = dbGetQuery(con, statement = query)
+
+##
