@@ -1,0 +1,1739 @@
+"","pri_country","prs_country","merge_rate","all_cnt","merge_cnt"
+"1","argentina","argentina",46.19,197,91
+"2","argentina","australia",0,7,0
+"3","argentina","belarus",0,2,0
+"4","argentina","belgium",25,4,1
+"5","argentina","brazil",100,1,1
+"6","argentina","canada",30,10,3
+"7","argentina","china",20,5,1
+"8","argentina","colombia",0,1,0
+"9","argentina","cyprus",100,1,1
+"10","argentina","egypt",0,1,0
+"11","argentina","finland",100,1,1
+"12","argentina","france",50,18,9
+"13","argentina","germany",52.38,21,11
+"14","argentina","hong kong",50,2,1
+"15","argentina","hungary",50,2,1
+"16","argentina","india",40,5,2
+"17","argentina","indonesia",100,1,1
+"18","argentina","israel",33.33,3,1
+"19","argentina","italy",66.67,3,2
+"20","argentina","jamaica",0,1,0
+"21","argentina","japan",63.64,11,7
+"22","argentina","kenya",100,1,1
+"23","argentina","latvia",100,1,1
+"24","argentina","lebanon",0,1,0
+"25","argentina","mexico",100,2,2
+"26","argentina","netherlands",50,4,2
+"27","argentina","new zealand",66.67,9,6
+"28","argentina","poland",100,1,1
+"29","argentina","portugal",0,2,0
+"30","argentina","russia",30,10,3
+"31","argentina","singapore",100,1,1
+"32","argentina","spain",50,6,3
+"33","argentina","sweden",0,1,0
+"34","argentina","switzerland",100,1,1
+"35","argentina","taiwan",0,1,0
+"36","argentina","ukraine",100,1,1
+"37","argentina","united kingdom",46.67,30,14
+"38","argentina","united states",51.75,114,59
+"39","armenia","armenia",100,13,13
+"40","armenia","united states",100,1,1
+"41","australia",NA,75,4,3
+"42","australia","argentina",44.44,9,4
+"43","australia","australia",53.56,1432,767
+"44","australia","austria",100,2,2
+"45","australia","azerbaijan",0,2,0
+"46","australia","belarus",100,7,7
+"47","australia","belgium",33.33,6,2
+"48","australia","brazil",18.26,115,21
+"49","australia","brunei",0,1,0
+"50","australia","canada",17.65,68,12
+"51","australia","chile",0,1,0
+"52","australia","china",56.25,16,9
+"53","australia","colombia",66.67,3,2
+"54","australia","croatia",100,1,1
+"55","australia","czech republic",12.5,8,1
+"56","australia","denmark",50,10,5
+"57","australia","el salvador",100,1,1
+"58","australia","estonia",100,2,2
+"59","australia","finland",80,10,8
+"60","australia","france",63.27,49,31
+"61","australia","germany",43.52,108,47
+"62","australia","greece",0,1,0
+"63","australia","hong kong",100,2,2
+"64","australia","hungary",100,4,4
+"65","australia","india",40,35,14
+"66","australia","indonesia",0,1,0
+"67","australia","iran",100,1,1
+"68","australia","israel",100,2,2
+"69","australia","italy",27.78,54,15
+"70","australia","japan",45.57,79,36
+"71","australia","latvia",54.55,11,6
+"72","australia","lithuania",0,1,0
+"73","australia","malaysia",83.33,12,10
+"74","australia","mexico",9.09,11,1
+"75","australia","moldova",0,3,0
+"76","australia","netherlands",41.51,53,22
+"77","australia","new zealand",44.74,76,34
+"78","australia","norway",50,4,2
+"79","australia","paraguay",0,2,0
+"80","australia","peru",83.33,6,5
+"81","australia","poland",59.26,27,16
+"82","australia","portugal",50,4,2
+"83","australia","romania",50,4,2
+"84","australia","russia",67.31,52,35
+"85","australia","serbia",100,2,2
+"86","australia","singapore",65.22,23,15
+"87","australia","slovakia",0,2,0
+"88","australia","slovenia",50,2,1
+"89","australia","south africa",50,2,1
+"90","australia","south korea",100,1,1
+"91","australia","spain",58.82,17,10
+"92","australia","sweden",10,20,2
+"93","australia","switzerland",62.5,8,5
+"94","australia","taiwan",60,5,3
+"95","australia","turkey",50,6,3
+"96","australia","ukraine",26.67,45,12
+"97","australia","united kingdom",61.54,65,40
+"98","australia","united states",39.48,651,257
+"99","australia","virgin islands",0,6,0
+"100","australia","zambia",33.33,3,1
+"101","austria",NA,100,1,1
+"102","austria","australia",50,4,2
+"103","austria","austria",52.89,121,64
+"104","austria","belarus",0,2,0
+"105","austria","belgium",0,1,0
+"106","austria","brazil",50,8,4
+"107","austria","canada",37.5,8,3
+"108","austria","china",66.67,9,6
+"109","austria","czech republic",0,1,0
+"110","austria","denmark",50,2,1
+"111","austria","estonia",100,1,1
+"112","austria","finland",50,2,1
+"113","austria","france",70,10,7
+"114","austria","germany",90.7,43,39
+"115","austria","india",72.73,11,8
+"116","austria","indonesia",100,1,1
+"117","austria","ireland",100,3,3
+"118","austria","italy",100,2,2
+"119","austria","japan",60,5,3
+"120","austria","mexico",60,5,3
+"121","austria","netherlands",25,4,1
+"122","austria","new zealand",100,1,1
+"123","austria","norway",100,1,1
+"124","austria","poland",100,1,1
+"125","austria","romania",66.67,3,2
+"126","austria","russia",42.86,7,3
+"127","austria","south korea",0,1,0
+"128","austria","sweden",80,5,4
+"129","austria","switzerland",0,1,0
+"130","austria","turkey",80,5,4
+"131","austria","united kingdom",50,12,6
+"132","austria","united states",61.54,65,40
+"133","austria","uruguay",100,3,3
+"134","azerbaijan","azerbaijan",50,2,1
+"135","azerbaijan","china",100,1,1
+"136","azerbaijan","france",50,2,1
+"137","azerbaijan","russia",0,1,0
+"138","azerbaijan","united kingdom",0,1,0
+"139","azerbaijan","united states",100,2,2
+"140","bangladesh","bangladesh",0,1,0
+"141","belarus",NA,100,1,1
+"142","belarus","australia",75,4,3
+"143","belarus","austria",66.67,3,2
+"144","belarus","belarus",53.52,142,76
+"145","belarus","brazil",75,4,3
+"146","belarus","canada",77.78,9,7
+"147","belarus","czech republic",100,1,1
+"148","belarus","egypt",100,1,1
+"149","belarus","france",85.71,14,12
+"150","belarus","germany",91.67,12,11
+"151","belarus","greece",100,2,2
+"152","belarus","india",50,2,1
+"153","belarus","israel",100,1,1
+"154","belarus","italy",0,1,0
+"155","belarus","japan",100,1,1
+"156","belarus","kyrgyzstan",100,6,6
+"157","belarus","latvia",100,1,1
+"158","belarus","macedonia",100,4,4
+"159","belarus","netherlands",33.33,3,1
+"160","belarus","new zealand",100,1,1
+"161","belarus","norway",100,1,1
+"162","belarus","poland",0,1,0
+"163","belarus","russia",50,6,3
+"164","belarus","saudi arabia",100,1,1
+"165","belarus","slovenia",100,1,1
+"166","belarus","spain",0,1,0
+"167","belarus","sweden",80,5,4
+"168","belarus","switzerland",75,4,3
+"169","belarus","ukraine",83.33,6,5
+"170","belarus","united kingdom",66.67,6,4
+"171","belarus","united states",64.81,54,35
+"172","belgium","australia",72.73,11,8
+"173","belgium","belgium",89.61,1174,1052
+"174","belgium","brazil",100,3,3
+"175","belgium","canada",88.24,17,15
+"176","belgium","china",100,1,1
+"177","belgium","czech republic",100,2,2
+"178","belgium","denmark",50,2,1
+"179","belgium","estonia",100,2,2
+"180","belgium","finland",100,11,11
+"181","belgium","france",88,25,22
+"182","belgium","germany",87.88,33,29
+"183","belgium","hungary",100,2,2
+"184","belgium","indonesia",100,1,1
+"185","belgium","israel",100,6,6
+"186","belgium","italy",100,6,6
+"187","belgium","japan",66.67,3,2
+"188","belgium","jersey",0,1,0
+"189","belgium","malaysia",100,1,1
+"190","belgium","netherlands",100,7,7
+"191","belgium","new zealand",100,13,13
+"192","belgium","norway",42.86,7,3
+"193","belgium","philippines",100,4,4
+"194","belgium","poland",100,9,9
+"195","belgium","portugal",100,4,4
+"196","belgium","romania",100,3,3
+"197","belgium","russia",66.67,3,2
+"198","belgium","singapore",100,1,1
+"199","belgium","south korea",100,1,1
+"200","belgium","spain",72.73,11,8
+"201","belgium","sweden",100,3,3
+"202","belgium","switzerland",100,5,5
+"203","belgium","taiwan",100,1,1
+"204","belgium","ukraine",85.71,7,6
+"205","belgium","united kingdom",89.66,58,52
+"206","belgium","united states",88.49,278,246
+"207","bermuda","bermuda",60,5,3
+"208","bermuda","switzerland",100,1,1
+"209","bermuda","united states",0,1,0
+"210","bolivia","bolivia",5.56,18,1
+"211","bolivia","spain",100,1,1
+"212","bosnia and herzegovina","bosnia and herzegovina",0,1,0
+"213","brazil","argentina",80,5,4
+"214","brazil","australia",72.97,37,27
+"215","brazil","austria",100,4,4
+"216","brazil","azerbaijan",71.43,7,5
+"217","brazil","belarus",88.46,78,69
+"218","brazil","belgium",50,10,5
+"219","brazil","bosnia and herzegovina",50,2,1
+"220","brazil","brazil",66.25,1369,907
+"221","brazil","bulgaria",42.86,14,6
+"222","brazil","canada",63.04,46,29
+"223","brazil","chile",0,1,0
+"224","brazil","china",23.26,86,20
+"225","brazil","colombia",72.73,33,24
+"226","brazil","croatia",75,4,3
+"227","brazil","czech republic",23.33,90,21
+"228","brazil","denmark",80,10,8
+"229","brazil","egypt",0,1,0
+"230","brazil","estonia",71.43,7,5
+"231","brazil","finland",77.78,9,7
+"232","brazil","france",74.58,59,44
+"233","brazil","germany",63.33,60,38
+"234","brazil","greece",76.92,13,10
+"235","brazil","hong kong",0,2,0
+"236","brazil","hungary",100,1,1
+"237","brazil","india",85.61,278,238
+"238","brazil","ireland",100,2,2
+"239","brazil","israel",33.33,3,1
+"240","brazil","italy",62.71,59,37
+"241","brazil","jamaica",100,1,1
+"242","brazil","japan",90.68,161,146
+"243","brazil","jersey",50,4,2
+"244","brazil","kyrgyzstan",66.67,3,2
+"245","brazil","latvia",100,3,3
+"246","brazil","lithuania",50,2,1
+"247","brazil","mexico",40,10,4
+"248","brazil","moldova",100,2,2
+"249","brazil","mongolia",100,1,1
+"250","brazil","morocco",100,1,1
+"251","brazil","netherlands",48.39,31,15
+"252","brazil","new zealand",80,10,8
+"253","brazil","None",14.29,7,1
+"254","brazil","norway",69.23,13,9
+"255","brazil","palestinian territories",0,1,0
+"256","brazil","peru",97.5,80,78
+"257","brazil","philippines",0,1,0
+"258","brazil","poland",62.5,16,10
+"259","brazil","portugal",60,5,3
+"260","brazil","russia",73.68,95,70
+"261","brazil","singapore",0,2,0
+"262","brazil","slovenia",100,1,1
+"263","brazil","south africa",100,1,1
+"264","brazil","south korea",0,1,0
+"265","brazil","spain",66.67,30,20
+"266","brazil","sweden",92.31,13,12
+"267","brazil","switzerland",98.23,113,111
+"268","brazil","taiwan",69.23,13,9
+"269","brazil","thailand",80,5,4
+"270","brazil","turkey",100,8,8
+"271","brazil","ukraine",84.91,53,45
+"272","brazil","united kingdom",64.62,65,42
+"273","brazil","united states",73.99,642,475
+"274","brazil","uruguay",40,5,2
+"275","brunei","brunei",0,3,0
+"276","bulgaria","australia",0,1,0
+"277","bulgaria","austria",100,1,1
+"278","bulgaria","belarus",100,1,1
+"279","bulgaria","belgium",0,1,0
+"280","bulgaria","bulgaria",48.39,31,15
+"281","bulgaria","canada",100,1,1
+"282","bulgaria","denmark",100,2,2
+"283","bulgaria","germany",100,3,3
+"284","bulgaria","italy",100,2,2
+"285","bulgaria","japan",100,69,69
+"286","bulgaria","netherlands",100,1,1
+"287","bulgaria","united kingdom",100,10,10
+"288","bulgaria","united states",88.37,43,38
+"289","cambodia","cambodia",0,1,0
+"290","canada",NA,33.33,3,1
+"291","canada","argentina",50,8,4
+"292","canada","australia",79.07,43,34
+"293","canada","austria",82.76,29,24
+"294","canada","belarus",62.5,8,5
+"295","canada","belgium",72.73,11,8
+"296","canada","brazil",91.67,60,55
+"297","canada","brunei",100,1,1
+"298","canada","bulgaria",100,1,1
+"299","canada","canada",59.45,1724,1025
+"300","canada","china",80,5,4
+"301","canada","colombia",100,1,1
+"302","canada","czech republic",66.67,12,8
+"303","canada","denmark",75,20,15
+"304","canada","ecuador",100,9,9
+"305","canada","estonia",50,2,1
+"306","canada","france",88,50,44
+"307","canada","germany",74.74,95,71
+"308","canada","greece",95.19,104,99
+"309","canada","guatemala",100,1,1
+"310","canada","hong kong",0,4,0
+"311","canada","hungary",0,2,0
+"312","canada","india",63.16,19,12
+"313","canada","indonesia",100,4,4
+"314","canada","ireland",100,3,3
+"315","canada","israel",66.67,3,2
+"316","canada","italy",79.31,29,23
+"317","canada","japan",90.91,77,70
+"318","canada","jersey",0,2,0
+"319","canada","latvia",75,8,6
+"320","canada","macedonia",100,1,1
+"321","canada","malaysia",100,1,1
+"322","canada","mexico",83.33,6,5
+"323","canada","moldova",100,1,1
+"324","canada","netherlands",65.91,44,29
+"325","canada","new zealand",85,20,17
+"326","canada","None",71.43,7,5
+"327","canada","norway",50,2,1
+"328","canada","panama",50,2,1
+"329","canada","peru",0,1,0
+"330","canada","philippines",0,3,0
+"331","canada","poland",66.67,3,2
+"332","canada","portugal",50,6,3
+"333","canada","romania",100,3,3
+"334","canada","russia",69.57,23,16
+"335","canada","serbia",50,2,1
+"336","canada","singapore",50,6,3
+"337","canada","slovenia",100,1,1
+"338","canada","south africa",80,5,4
+"339","canada","spain",75,12,9
+"340","canada","sweden",90.91,33,30
+"341","canada","switzerland",100,20,20
+"342","canada","taiwan",50,2,1
+"343","canada","thailand",50,2,1
+"344","canada","trinidad and tobago",33.33,3,1
+"345","canada","turkey",50,2,1
+"346","canada","ukraine",57.14,7,4
+"347","canada","united arab emirates",100,1,1
+"348","canada","united kingdom",73.33,90,66
+"349","canada","united states",80.18,671,538
+"350","canada","uruguay",100,1,1
+"351","canada","venezuela",100,4,4
+"352","canada","vietnam",0,1,0
+"353","chile","canada",100,4,4
+"354","chile","chile",95.95,444,426
+"355","chile","italy",0,1,0
+"356","china","australia",0,1,0
+"357","china","austria",0,1,0
+"358","china","brazil",0,2,0
+"359","china","china",62.54,574,359
+"360","china","france",0,1,0
+"361","china","germany",60,5,3
+"362","china","italy",66.67,9,6
+"363","china","japan",0,1,0
+"364","china","kazakhstan",0,1,0
+"365","china","netherlands",100,1,1
+"366","china","norway",33.33,3,1
+"367","china","portugal",0,1,0
+"368","china","russia",50,2,1
+"369","china","sweden",25,4,1
+"370","china","united states",90.48,21,19
+"371","colombia","argentina",100,1,1
+"372","colombia","australia",100,5,5
+"373","colombia","belarus",100,5,5
+"374","colombia","belgium",100,1,1
+"375","colombia","bermuda",100,1,1
+"376","colombia","brazil",50,4,2
+"377","colombia","bulgaria",100,6,6
+"378","colombia","canada",100,7,7
+"379","colombia","colombia",47.27,55,26
+"380","colombia","czech republic",100,8,8
+"381","colombia","denmark",0,1,0
+"382","colombia","france",80,5,4
+"383","colombia","germany",33.33,3,1
+"384","colombia","india",90.91,33,30
+"385","colombia","ireland",0,2,0
+"386","colombia","italy",100,3,3
+"387","colombia","japan",93.75,16,15
+"388","colombia","mexico",100,1,1
+"389","colombia","morocco",0,1,0
+"390","colombia","new zealand",0,2,0
+"391","colombia","norway",0,1,0
+"392","colombia","peru",100,4,4
+"393","colombia","russia",100,2,2
+"394","colombia","spain",0,1,0
+"395","colombia","sweden",0,1,0
+"396","colombia","switzerland",100,5,5
+"397","colombia","thailand",100,2,2
+"398","colombia","ukraine",100,6,6
+"399","colombia","united kingdom",100,2,2
+"400","colombia","united states",84.09,44,37
+"401","costa rica","costa rica",0,4,0
+"402","croatia","australia",50,2,1
+"403","croatia","bermuda",100,1,1
+"404","croatia","brazil",100,1,1
+"405","croatia","canada",50,2,1
+"406","croatia","croatia",20,5,1
+"407","croatia","czech republic",100,1,1
+"408","croatia","egypt",100,1,1
+"409","croatia","germany",100,3,3
+"410","croatia","ireland",100,1,1
+"411","croatia","italy",50,2,1
+"412","croatia","netherlands",100,1,1
+"413","croatia","new zealand",100,1,1
+"414","croatia","poland",100,3,3
+"415","croatia","russia",100,2,2
+"416","croatia","south africa",100,1,1
+"417","croatia","ukraine",100,1,1
+"418","croatia","united kingdom",75,4,3
+"419","croatia","united states",88.89,27,24
+"420","czech republic",NA,0,2,0
+"421","czech republic","argentina",0,2,0
+"422","czech republic","australia",0,6,0
+"423","czech republic","belgium",0,2,0
+"424","czech republic","brazil",72.73,11,8
+"425","czech republic","bulgaria",0,1,0
+"426","czech republic","canada",0,6,0
+"427","czech republic","china",83.33,18,15
+"428","czech republic","croatia",100,40,40
+"429","czech republic","czech republic",72.91,875,638
+"430","czech republic","denmark",100,1,1
+"431","czech republic","estonia",100,1,1
+"432","czech republic","finland",0,1,0
+"433","czech republic","france",0,4,0
+"434","czech republic","germany",14.81,27,4
+"435","czech republic","greece",75,4,3
+"436","czech republic","hungary",100,2,2
+"437","czech republic","india",28.57,7,2
+"438","czech republic","israel",0,4,0
+"439","czech republic","italy",80.95,21,17
+"440","czech republic","japan",100,1,1
+"441","czech republic","jersey",0,1,0
+"442","czech republic","mexico",50,2,1
+"443","czech republic","netherlands",50,6,3
+"444","czech republic","norway",77.78,9,7
+"445","czech republic","poland",66.67,15,10
+"446","czech republic","portugal",50,2,1
+"447","czech republic","romania",100,1,1
+"448","czech republic","russia",14.29,7,1
+"449","czech republic","south korea",100,6,6
+"450","czech republic","spain",0,1,0
+"451","czech republic","sweden",50,4,2
+"452","czech republic","switzerland",100,1,1
+"453","czech republic","taiwan",66.67,3,2
+"454","czech republic","turkey",66.67,3,2
+"455","czech republic","ukraine",100,1,1
+"456","czech republic","united kingdom",9.09,11,1
+"457","czech republic","united states",43.9,82,36
+"458","denmark","austria",0,1,0
+"459","denmark","canada",100,2,2
+"460","denmark","china",100,1,1
+"461","denmark","colombia",50,2,1
+"462","denmark","denmark",20.55,73,15
+"463","denmark","france",100,1,1
+"464","denmark","germany",90.48,21,19
+"465","denmark","india",0,1,0
+"466","denmark","japan",0,1,0
+"467","denmark","netherlands",100,2,2
+"468","denmark","new zealand",100,4,4
+"469","denmark","portugal",0,1,0
+"470","denmark","sweden",88.89,9,8
+"471","denmark","united kingdom",85,20,17
+"472","denmark","united states",86.36,22,19
+"473","dominican republic","dominican republic",0,3,0
+"474","ecuador","brazil",100,7,7
+"475","ecuador","canada",100,1,1
+"476","ecuador","colombia",0,1,0
+"477","ecuador","ecuador",92.31,13,12
+"478","ecuador","spain",0,1,0
+"479","egypt","argentina",55.56,9,5
+"480","egypt","egypt",68.75,16,11
+"481","egypt","russia",86.96,23,20
+"482","egypt","turkey",33.33,3,1
+"483","estonia","estonia",88.28,145,128
+"484","finland","argentina",100,1,1
+"485","finland","australia",25,4,1
+"486","finland","belarus",100,1,1
+"487","finland","belgium",100,2,2
+"488","finland","brazil",100,6,6
+"489","finland","canada",0,4,0
+"490","finland","china",0,1,0
+"491","finland","colombia",100,1,1
+"492","finland","costa rica",100,1,1
+"493","finland","czech republic",100,4,4
+"494","finland","denmark",0,2,0
+"495","finland","finland",70.61,245,173
+"496","finland","france",100,10,10
+"497","finland","germany",100,7,7
+"498","finland","hong kong",60,5,3
+"499","finland","india",0,1,0
+"500","finland","israel",100,2,2
+"501","finland","italy",100,6,6
+"502","finland","japan",0,1,0
+"503","finland","jersey",0,1,0
+"504","finland","netherlands",75,4,3
+"505","finland","new zealand",100,1,1
+"506","finland","poland",85.71,7,6
+"507","finland","romania",100,1,1
+"508","finland","russia",40,5,2
+"509","finland","slovakia",0,1,0
+"510","finland","spain",50,6,3
+"511","finland","sweden",100,1,1
+"512","finland","switzerland",66.67,3,2
+"513","finland","ukraine",100,5,5
+"514","finland","united kingdom",66.67,3,2
+"515","finland","united states",83.33,48,40
+"516","finland","venezuela",100,2,2
+"517","france",NA,100,4,4
+"518","france","argentina",61.11,18,11
+"519","france","australia",76.6,47,36
+"520","france","austria",66.67,9,6
+"521","france","belarus",80,5,4
+"522","france","belgium",73.91,23,17
+"523","france","bolivia",95.92,49,47
+"524","france","brazil",73.33,45,33
+"525","france","bulgaria",100,3,3
+"526","france","canada",72.65,117,85
+"527","france","chile",66.67,3,2
+"528","france","china",67.74,31,21
+"529","france","colombia",50,4,2
+"530","france","czech republic",85.71,35,30
+"531","france","denmark",28.57,7,2
+"532","france","estonia",100,2,2
+"533","france","finland",82.35,51,42
+"534","france","france",69.98,2675,1872
+"535","france","germany",65.57,183,120
+"536","france","greece",71.43,14,10
+"537","france","hungary",69.23,13,9
+"538","france","iceland",100,6,6
+"539","france","india",68.75,16,11
+"540","france","indonesia",0,1,0
+"541","france","ireland",40,5,2
+"542","france","israel",66.67,6,4
+"543","france","italy",83.78,111,93
+"544","france","japan",89.09,55,49
+"545","france","jersey",100,2,2
+"546","france","kyrgyzstan",66.67,9,6
+"547","france","latvia",100,3,3
+"548","france","lithuania",66.67,3,2
+"549","france","luxembourg",100,2,2
+"550","france","macedonia",35.48,31,11
+"551","france","mauritius",100,1,1
+"552","france","mexico",83.33,6,5
+"553","france","mongolia",0,1,0
+"554","france","nepal",100,1,1
+"555","france","netherlands",73.33,30,22
+"556","france","new zealand",80,5,4
+"557","france","None",50,4,2
+"558","france","norway",87.5,16,14
+"559","france","pakistan",0,3,0
+"560","france","peru",100,6,6
+"561","france","philippines",80,5,4
+"562","france","poland",76.92,13,10
+"563","france","portugal",66.67,3,2
+"564","france","reunion",0,1,0
+"565","france","romania",100,8,8
+"566","france","russia",79.63,54,43
+"567","france","saudi arabia",0,1,0
+"568","france","serbia",17.24,58,10
+"569","france","singapore",100,4,4
+"570","france","slovenia",50,2,1
+"571","france","south africa",94.03,67,63
+"572","france","south korea",77.78,9,7
+"573","france","spain",86.67,30,26
+"574","france","sweden",65,40,26
+"575","france","switzerland",83.75,80,67
+"576","france","taiwan",75,8,6
+"577","france","turkey",81.82,11,9
+"578","france","ukraine",53.85,13,7
+"579","france","united kingdom",80.38,209,168
+"580","france","united states",77.78,675,525
+"581","france","uruguay",100,2,2
+"582","france","vietnam",100,3,3
+"583","germany",NA,25,4,1
+"584","germany","argentina",89.47,19,17
+"585","germany","australia",60.4,101,61
+"586","germany","austria",86.21,29,25
+"587","germany","belarus",54.55,11,6
+"588","germany","belgium",66.67,18,12
+"589","germany","bermuda",100,1,1
+"590","germany","brazil",60.71,84,51
+"591","germany","brunei",40,5,2
+"592","germany","bulgaria",50,2,1
+"593","germany","canada",55.95,84,47
+"594","germany","chile",100,3,3
+"595","germany","china",43.48,23,10
+"596","germany","colombia",33.33,3,1
+"597","germany","czech republic",55.56,36,20
+"598","germany","denmark",96.25,80,77
+"599","germany","egypt",50,2,1
+"600","germany","estonia",66.67,3,2
+"601","germany","finland",65,20,13
+"602","germany","france",63.11,122,77
+"603","germany","georgia",0,1,0
+"604","germany","germany",67.77,3090,2094
+"605","germany","greece",0,3,0
+"606","germany","hong kong",100,2,2
+"607","germany","hungary",64.29,14,9
+"608","germany","iceland",100,3,3
+"609","germany","india",50.98,51,26
+"610","germany","indonesia",50,2,1
+"611","germany","iran",33.33,6,2
+"612","germany","ireland",63.64,11,7
+"613","germany","israel",58.33,12,7
+"614","germany","italy",76.47,34,26
+"615","germany","japan",89.7,165,148
+"616","germany","kenya",0,1,0
+"617","germany","kyrgyzstan",0,1,0
+"618","germany","latvia",100,2,2
+"619","germany","lithuania",100,2,2
+"620","germany","mexico",0,1,0
+"621","germany","mongolia",100,1,1
+"622","germany","netherlands",78.57,70,55
+"623","germany","new zealand",100,7,7
+"624","germany","None",0,11,0
+"625","germany","norway",91.67,12,11
+"626","germany","pakistan",100,3,3
+"627","germany","poland",71.43,28,20
+"628","germany","portugal",84.62,26,22
+"629","germany","romania",91.67,12,11
+"630","germany","russia",58.7,46,27
+"631","germany","singapore",33.33,3,1
+"632","germany","slovenia",85.71,7,6
+"633","germany","south africa",100,5,5
+"634","germany","south korea",25,4,1
+"635","germany","spain",75,4,3
+"636","germany","sri lanka",57.14,7,4
+"637","germany","sweden",84.03,119,100
+"638","germany","switzerland",85.19,27,23
+"639","germany","taiwan",33.33,3,1
+"640","germany","thailand",100,1,1
+"641","germany","turkey",100,3,3
+"642","germany","ukraine",71.43,28,20
+"643","germany","united kingdom",91.4,1012,925
+"644","germany","united states",71.29,627,447
+"645","germany","uruguay",100,19,19
+"646","germany","vietnam",100,1,1
+"647","ghana","ghana",0,1,0
+"648","greece","canada",0,1,0
+"649","greece","greece",82.3,452,372
+"650","greece","india",100,5,5
+"651","greece","romania",100,1,1
+"652","greece","united kingdom",100,17,17
+"653","greece","united states",36.36,11,4
+"654","guatemala","guatemala",0,1,0
+"655","honduras","honduras",0,1,0
+"656","hong kong",NA,66.67,3,2
+"657","hong kong","argentina",100,1,1
+"658","hong kong","germany",100,2,2
+"659","hong kong","hong kong",73.21,112,82
+"660","hong kong","japan",100,1,1
+"661","hong kong","netherlands",100,1,1
+"662","hong kong","spain",100,1,1
+"663","hong kong","united kingdom",100,1,1
+"664","hong kong","united states",75,4,3
+"665","hungary","brazil",100,1,1
+"666","hungary","china",0,1,0
+"667","hungary","france",50,2,1
+"668","hungary","germany",66.67,6,4
+"669","hungary","hong kong",0,5,0
+"670","hungary","hungary",79.27,381,302
+"671","hungary","ireland",0,1,0
+"672","hungary","japan",0,1,0
+"673","hungary","netherlands",0,2,0
+"674","hungary","romania",100,2,2
+"675","hungary","spain",0,2,0
+"676","hungary","sweden",50,2,1
+"677","hungary","turkey",100,3,3
+"678","hungary","united kingdom",0,2,0
+"679","hungary","united states",85.71,14,12
+"680","iceland","iceland",0,10,0
+"681","india","argentina",50,2,1
+"682","india","australia",60,10,6
+"683","india","austria",0,1,0
+"684","india","belarus",50,2,1
+"685","india","belgium",60,5,3
+"686","india","brazil",55.56,18,10
+"687","india","bulgaria",100,1,1
+"688","india","canada",100,8,8
+"689","india","china",100,1,1
+"690","india","colombia",100,7,7
+"691","india","czech republic",31.82,22,7
+"692","india","denmark",25,4,1
+"693","india","estonia",100,1,1
+"694","india","finland",50,6,3
+"695","india","france",63.16,38,24
+"696","india","georgia",0,1,0
+"697","india","germany",16.13,31,5
+"698","india","greece",100,1,1
+"699","india","hungary",100,3,3
+"700","india","india",38.62,650,251
+"701","india","indonesia",100,1,1
+"702","india","ireland",0,1,0
+"703","india","israel",0,1,0
+"704","india","italy",42.86,14,6
+"705","india","japan",56.25,16,9
+"706","india","latvia",50,2,1
+"707","india","malta",0,1,0
+"708","india","mexico",66.67,3,2
+"709","india","netherlands",100,3,3
+"710","india","new zealand",66.67,9,6
+"711","india","None",0,1,0
+"712","india","norway",50,2,1
+"713","india","peru",77.78,9,7
+"714","india","poland",100,1,1
+"715","india","portugal",7.69,13,1
+"716","india","russia",53.85,13,7
+"717","india","slovenia",0,12,0
+"718","india","south africa",100,1,1
+"719","india","spain",100,3,3
+"720","india","sweden",100,1,1
+"721","india","switzerland",50,4,2
+"722","india","taiwan",66.67,3,2
+"723","india","thailand",0,1,0
+"724","india","turkey",33.33,3,1
+"725","india","ukraine",66.67,3,2
+"726","india","united kingdom",34.38,32,11
+"727","india","united states",48.65,111,54
+"728","india","uruguay",0,1,0
+"729","indonesia","france",100,1,1
+"730","indonesia","indonesia",36.36,11,4
+"731","iran","iran",0,10,0
+"732","ireland","australia",0,8,0
+"733","ireland","belgium",0,2,0
+"734","ireland","brazil",20,5,1
+"735","ireland","canada",33.33,3,1
+"736","ireland","china",100,2,2
+"737","ireland","germany",23.08,13,3
+"738","ireland","india",86.17,94,81
+"739","ireland","ireland",18.75,32,6
+"740","ireland","italy",70,10,7
+"741","ireland","japan",66.67,3,2
+"742","ireland","netherlands",0,4,0
+"743","ireland","new zealand",0,2,0
+"744","ireland","russia",83.33,6,5
+"745","ireland","switzerland",12.5,8,1
+"746","ireland","taiwan",0,1,0
+"747","ireland","ukraine",16.67,6,1
+"748","ireland","united kingdom",17.65,17,3
+"749","ireland","united states",12.5,32,4
+"750","ireland","zambia",0,1,0
+"751","israel","australia",100,2,2
+"752","israel","belgium",66.67,3,2
+"753","israel","brazil",100,10,10
+"754","israel","canada",100,10,10
+"755","israel","czech republic",0,5,0
+"756","israel","denmark",100,3,3
+"757","israel","egypt",100,1,1
+"758","israel","estonia",100,1,1
+"759","israel","france",44.44,9,4
+"760","israel","germany",69.23,13,9
+"761","israel","hong kong",100,1,1
+"762","israel","iceland",50,2,1
+"763","israel","india",0,2,0
+"764","israel","israel",34.78,92,32
+"765","israel","italy",100,1,1
+"766","israel","japan",100,16,16
+"767","israel","kyrgyzstan",100,2,2
+"768","israel","netherlands",25,4,1
+"769","israel","new zealand",0,1,0
+"770","israel","norway",100,1,1
+"771","israel","peru",100,4,4
+"772","israel","philippines",100,1,1
+"773","israel","poland",0,1,0
+"774","israel","russia",91.67,12,11
+"775","israel","slovakia",0,2,0
+"776","israel","spain",18.18,22,4
+"777","israel","sweden",0,7,0
+"778","israel","switzerland",28.57,7,2
+"779","israel","united kingdom",6.72,134,9
+"780","israel","united states",36.46,96,35
+"781","italy",NA,100,2,2
+"782","italy","argentina",100,24,24
+"783","italy","australia",81.25,16,13
+"784","italy","belarus",100,1,1
+"785","italy","brazil",57.14,7,4
+"786","italy","canada",77.78,9,7
+"787","italy","china",68.75,16,11
+"788","italy","colombia",100,4,4
+"789","italy","czech republic",44.44,9,4
+"790","italy","denmark",66.67,3,2
+"791","italy","ecuador",100,1,1
+"792","italy","estonia",100,1,1
+"793","italy","finland",100,24,24
+"794","italy","france",62.89,97,61
+"795","italy","germany",86.96,46,40
+"796","italy","greece",100,1,1
+"797","italy","hungary",100,1,1
+"798","italy","iceland",100,2,2
+"799","italy","india",0,1,0
+"800","italy","iran",100,1,1
+"801","italy","ireland",63.16,19,12
+"802","italy","israel",100,1,1
+"803","italy","italy",66.67,558,372
+"804","italy","japan",76.19,21,16
+"805","italy","latvia",100,3,3
+"806","italy","mexico",100,4,4
+"807","italy","netherlands",83.33,6,5
+"808","italy","new zealand",100,1,1
+"809","italy","norway",0,1,0
+"810","italy","peru",100,1,1
+"811","italy","poland",75,12,9
+"812","italy","portugal",50,2,1
+"813","italy","qatar",100,1,1
+"814","italy","romania",41.67,12,5
+"815","italy","russia",88,25,22
+"816","italy","serbia",100,1,1
+"817","italy","singapore",100,2,2
+"818","italy","slovenia",33.33,9,3
+"819","italy","south africa",0,1,0
+"820","italy","spain",100,1,1
+"821","italy","sweden",61.7,47,29
+"822","italy","switzerland",100,1,1
+"823","italy","turkey",100,1,1
+"824","italy","ukraine",91.3,23,21
+"825","italy","united arab emirates",100,1,1
+"826","italy","united kingdom",69.44,108,75
+"827","italy","united states",85.47,117,100
+"828","italy","vietnam",100,1,1
+"829","jamaica","jamaica",100,11,11
+"830","japan",NA,33.33,3,1
+"831","japan","argentina",50,4,2
+"832","japan","australia",25,12,3
+"833","japan","belarus",100,2,2
+"834","japan","belgium",100,2,2
+"835","japan","bosnia and herzegovina",50,2,1
+"836","japan","brazil",62.5,16,10
+"837","japan","bulgaria",50,4,2
+"838","japan","canada",50,8,4
+"839","japan","china",40,5,2
+"840","japan","colombia",100,1,1
+"841","japan","croatia",50,2,1
+"842","japan","czech republic",100,4,4
+"843","japan","denmark",100,2,2
+"844","japan","finland",100,1,1
+"845","japan","france",73.17,41,30
+"846","japan","germany",63.16,19,12
+"847","japan","greece",50,4,2
+"848","japan","hungary",100,1,1
+"849","japan","iceland",100,1,1
+"850","japan","india",28.57,14,4
+"851","japan","indonesia",100,4,4
+"852","japan","iran",100,1,1
+"853","japan","israel",0,3,0
+"854","japan","italy",80,5,4
+"855","japan","japan",80.86,1238,1001
+"856","japan","latvia",0,2,0
+"857","japan","lithuania",100,2,2
+"858","japan","malaysia",100,1,1
+"859","japan","mexico",0,1,0
+"860","japan","moldova",100,1,1
+"861","japan","mongolia",100,1,1
+"862","japan","netherlands",71.43,7,5
+"863","japan","new zealand",100,4,4
+"864","japan","nigeria",0,1,0
+"865","japan","norway",100,4,4
+"866","japan","pakistan",0,1,0
+"867","japan","peru",66.67,3,2
+"868","japan","poland",80,5,4
+"869","japan","portugal",100,5,5
+"870","japan","russia",63.16,19,12
+"871","japan","serbia",100,1,1
+"872","japan","slovenia",100,1,1
+"873","japan","south korea",0,1,0
+"874","japan","spain",100,17,17
+"875","japan","sweden",86.36,22,19
+"876","japan","switzerland",100,7,7
+"877","japan","taiwan",75,4,3
+"878","japan","thailand",0,1,0
+"879","japan","turkey",50,4,2
+"880","japan","ukraine",50,8,4
+"881","japan","united kingdom",76,25,19
+"882","japan","united states",57.94,107,62
+"883","japan","uruguay",0,1,0
+"884","japan","venezuela",0,1,0
+"885","japan","zambia",0,1,0
+"886","jersey","jersey",94.76,191,181
+"887","jersey","united kingdom",100,1,1
+"888","jersey","united states",100,21,21
+"889","kenya","kenya",44.44,27,12
+"890","kenya","mali",44.44,9,4
+"891","kenya","united states",0,1,0
+"892","kyrgyzstan","kyrgyzstan",0,2,0
+"893","latvia","australia",100,4,4
+"894","latvia","belarus",100,3,3
+"895","latvia","bulgaria",100,13,13
+"896","latvia","canada",78.95,19,15
+"897","latvia","china",0,1,0
+"898","latvia","czech republic",74.19,31,23
+"899","latvia","denmark",33.33,9,3
+"900","latvia","france",77.78,9,7
+"901","latvia","germany",50,4,2
+"902","latvia","hungary",100,1,1
+"903","latvia","india",100,2,2
+"904","latvia","italy",75,4,3
+"905","latvia","japan",100,5,5
+"906","latvia","latvia",22.58,31,7
+"907","latvia","malaysia",0,1,0
+"908","latvia","mexico",100,1,1
+"909","latvia","netherlands",100,2,2
+"910","latvia","new zealand",100,56,56
+"911","latvia","poland",100,3,3
+"912","latvia","portugal",50,2,1
+"913","latvia","russia",100,4,4
+"914","latvia","slovakia",100,3,3
+"915","latvia","south africa",100,1,1
+"916","latvia","spain",100,1,1
+"917","latvia","turkey",0,1,0
+"918","latvia","united kingdom",57.14,7,4
+"919","latvia","united states",80,90,72
+"920","lebanon","lebanon",0,1,0
+"921","lithuania","germany",100,1,1
+"922","lithuania","lithuania",0,2,0
+"923","macedonia","macedonia",0,10,0
+"924","malaysia","malaysia",8.33,12,1
+"925","mali","mali",0,18,0
+"926","mauritius","mauritius",0,1,0
+"927","mexico","argentina",90,10,9
+"928","mexico","australia",100,2,2
+"929","mexico","brazil",82.35,17,14
+"930","mexico","canada",100,5,5
+"931","mexico","czech republic",0,1,0
+"932","mexico","egypt",100,1,1
+"933","mexico","finland",100,1,1
+"934","mexico","france",50,2,1
+"935","mexico","germany",92.31,13,12
+"936","mexico","italy",93.75,16,15
+"937","mexico","japan",100,2,2
+"938","mexico","mexico",54.43,79,43
+"939","mexico","netherlands",90,10,9
+"940","mexico","new zealand",0,1,0
+"941","mexico","None",100,1,1
+"942","mexico","spain",100,2,2
+"943","mexico","switzerland",100,2,2
+"944","mexico","united kingdom",100,3,3
+"945","mexico","united states",89.13,46,41
+"946","moldova","moldova",10,10,1
+"947","mongolia","mongolia",0,1,0
+"948","montenegro","montenegro",0,1,0
+"949","morocco","morocco",33.33,3,1
+"950","mozambique","mozambique",0,1,0
+"951","nepal","nepal",0,3,0
+"952","netherlands",NA,100,2,2
+"953","netherlands","argentina",60,5,3
+"954","netherlands","australia",60.71,28,17
+"955","netherlands","austria",100,4,4
+"956","netherlands","azerbaijan",100,1,1
+"957","netherlands","belarus",100,4,4
+"958","netherlands","belgium",66.67,9,6
+"959","netherlands","brazil",79.17,24,19
+"960","netherlands","bulgaria",0,1,0
+"961","netherlands","canada",87.5,32,28
+"962","netherlands","china",93.88,49,46
+"963","netherlands","czech republic",100,14,14
+"964","netherlands","denmark",50,6,3
+"965","netherlands","estonia",80,5,4
+"966","netherlands","finland",0,1,0
+"967","netherlands","france",79.55,88,70
+"968","netherlands","germany",81.58,114,93
+"969","netherlands","hong kong",50,4,2
+"970","netherlands","hungary",100,2,2
+"971","netherlands","iceland",33.33,3,1
+"972","netherlands","india",70,10,7
+"973","netherlands","indonesia",100,2,2
+"974","netherlands","ireland",100,3,3
+"975","netherlands","israel",62.5,8,5
+"976","netherlands","italy",91.84,49,45
+"977","netherlands","japan",68.42,19,13
+"978","netherlands","kenya",100,1,1
+"979","netherlands","kyrgyzstan",100,1,1
+"980","netherlands","latvia",100,1,1
+"981","netherlands","luxembourg",0,1,0
+"982","netherlands","mexico",50,4,2
+"983","netherlands","mongolia",100,1,1
+"984","netherlands","netherlands",74.6,1118,834
+"985","netherlands","new zealand",94.44,18,17
+"986","netherlands","None",94.44,18,17
+"987","netherlands","norway",81.82,33,27
+"988","netherlands","paraguay",100,1,1
+"989","netherlands","peru",100,1,1
+"990","netherlands","philippines",50,2,1
+"991","netherlands","poland",86.96,23,20
+"992","netherlands","portugal",50,2,1
+"993","netherlands","romania",100,2,2
+"994","netherlands","russia",88.24,17,15
+"995","netherlands","serbia",100,3,3
+"996","netherlands","singapore",100,2,2
+"997","netherlands","slovenia",100,1,1
+"998","netherlands","south africa",83.33,6,5
+"999","netherlands","spain",87.5,8,7
+"1000","netherlands","sri lanka",100,3,3
+"1001","netherlands","sweden",63.16,19,12
+"1002","netherlands","switzerland",94.12,17,16
+"1003","netherlands","taiwan",100,3,3
+"1004","netherlands","turkey",71.43,7,5
+"1005","netherlands","ukraine",61.11,18,11
+"1006","netherlands","united arab emirates",0,1,0
+"1007","netherlands","united kingdom",73.53,68,50
+"1008","netherlands","united states",67.6,250,169
+"1009","netherlands","vietnam",94.12,17,16
+"1010","new zealand",NA,75,8,6
+"1011","new zealand","argentina",85.71,7,6
+"1012","new zealand","australia",85.19,27,23
+"1013","new zealand","austria",100,3,3
+"1014","new zealand","belarus",91.3,23,21
+"1015","new zealand","belgium",100,5,5
+"1016","new zealand","brazil",50,14,7
+"1017","new zealand","bulgaria",100,9,9
+"1018","new zealand","canada",78.67,75,59
+"1019","new zealand","china",33.33,9,3
+"1020","new zealand","czech republic",79.31,58,46
+"1021","new zealand","denmark",27.27,11,3
+"1022","new zealand","dominican republic",100,1,1
+"1023","new zealand","finland",75,4,3
+"1024","new zealand","france",84.21,19,16
+"1025","new zealand","germany",76.19,21,16
+"1026","new zealand","greece",0,1,0
+"1027","new zealand","hong kong",100,1,1
+"1028","new zealand","hungary",100,1,1
+"1029","new zealand","india",70,10,7
+"1030","new zealand","ireland",0,1,0
+"1031","new zealand","israel",71.43,7,5
+"1032","new zealand","italy",72.73,11,8
+"1033","new zealand","japan",100,14,14
+"1034","new zealand","latvia",86.02,93,80
+"1035","new zealand","macedonia",100,1,1
+"1036","new zealand","malaysia",100,2,2
+"1037","new zealand","mexico",100,6,6
+"1038","new zealand","nepal",100,1,1
+"1039","new zealand","netherlands",92.31,13,12
+"1040","new zealand","new zealand",56.03,141,79
+"1041","new zealand","None",33.33,3,1
+"1042","new zealand","norway",77.78,9,7
+"1043","new zealand","poland",60,5,3
+"1044","new zealand","russia",60,15,9
+"1045","new zealand","slovakia",50,4,2
+"1046","new zealand","south africa",100,1,1
+"1047","new zealand","south korea",100,3,3
+"1048","new zealand","spain",66.67,3,2
+"1049","new zealand","sweden",100,1,1
+"1050","new zealand","switzerland",100,1,1
+"1051","new zealand","taiwan",100,1,1
+"1052","new zealand","ukraine",92.31,13,12
+"1053","new zealand","united kingdom",78.13,32,25
+"1054","new zealand","united states",84.84,376,319
+"1055","new zealand","vietnam",100,1,1
+"1056","nicaragua","nicaragua",0,1,0
+"1057","norway","argentina",50,2,1
+"1058","norway","australia",37.5,8,3
+"1059","norway","austria",0,6,0
+"1060","norway","belgium",0,2,0
+"1061","norway","brazil",40,5,2
+"1062","norway","canada",40,5,2
+"1063","norway","china",42.86,7,3
+"1064","norway","czech republic",0,1,0
+"1065","norway","estonia",0,2,0
+"1066","norway","finland",0,1,0
+"1067","norway","france",33.33,6,2
+"1068","norway","germany",26.67,15,4
+"1069","norway","india",34.78,23,8
+"1070","norway","israel",100,4,4
+"1071","norway","italy",50,2,1
+"1072","norway","jersey",100,1,1
+"1073","norway","netherlands",33.33,3,1
+"1074","norway","new zealand",100,3,3
+"1075","norway","nigeria",0,4,0
+"1076","norway","None",0,2,0
+"1077","norway","norway",49.27,205,101
+"1078","norway","poland",0,1,0
+"1079","norway","romania",0,1,0
+"1080","norway","russia",40,10,4
+"1081","norway","slovenia",0,2,0
+"1082","norway","spain",42.86,7,3
+"1083","norway","sweden",40.91,22,9
+"1084","norway","thailand",0,1,0
+"1085","norway","turkey",0,3,0
+"1086","norway","ukraine",0,1,0
+"1087","norway","united kingdom",36.67,30,11
+"1088","norway","united states",53.99,263,142
+"1089","pakistan","pakistan",84.62,13,11
+"1090","palestinian territories","palestinian territories",0,1,0
+"1091","paraguay","paraguay",0,2,0
+"1092","peru","peru",8,25,2
+"1093","peru","switzerland",0,1,0
+"1094","peru","united states",0,2,0
+"1095","philippines",NA,0,1,0
+"1096","philippines","philippines",82.43,74,61
+"1097","poland",NA,100,5,5
+"1098","poland","argentina",53.85,13,7
+"1099","poland","australia",75.51,49,37
+"1100","poland","austria",66.67,3,2
+"1101","poland","belarus",94.89,137,130
+"1102","poland","belgium",25,4,1
+"1103","poland","bermuda",50,2,1
+"1104","poland","brazil",92.25,129,119
+"1105","poland","bulgaria",75,4,3
+"1106","poland","canada",66.67,36,24
+"1107","poland","chile",100,1,1
+"1108","poland","china",60,10,6
+"1109","poland","colombia",85.11,47,40
+"1110","poland","croatia",50,2,1
+"1111","poland","czech republic",18.18,33,6
+"1112","poland","denmark",76.92,13,10
+"1113","poland","dominican republic",100,1,1
+"1114","poland","estonia",80,5,4
+"1115","poland","finland",88.24,17,15
+"1116","poland","france",67.14,70,47
+"1117","poland","germany",59.46,37,22
+"1118","poland","hong kong",100,1,1
+"1119","poland","iceland",100,1,1
+"1120","poland","india",86.29,197,170
+"1121","poland","iran",0,1,0
+"1122","poland","ireland",33.33,3,1
+"1123","poland","israel",33.33,3,1
+"1124","poland","italy",43.75,16,7
+"1125","poland","japan",85.23,88,75
+"1126","poland","latvia",100,3,3
+"1127","poland","mexico",50,4,2
+"1128","poland","netherlands",87.1,31,27
+"1129","poland","new zealand",70,20,14
+"1130","poland","norway",50,2,1
+"1131","poland","peru",100,6,6
+"1132","poland","philippines",100,2,2
+"1133","poland","poland",71.52,323,231
+"1134","poland","portugal",4.17,24,1
+"1135","poland","romania",100,1,1
+"1136","poland","russia",77.14,70,54
+"1137","poland","singapore",60,5,3
+"1138","poland","slovenia",50,2,1
+"1139","poland","south africa",100,1,1
+"1140","poland","south korea",0,2,0
+"1141","poland","spain",77.78,18,14
+"1142","poland","sweden",83.33,6,5
+"1143","poland","switzerland",56.52,23,13
+"1144","poland","taiwan",75,8,6
+"1145","poland","thailand",83.33,6,5
+"1146","poland","turkey",100,2,2
+"1147","poland","ukraine",85.07,67,57
+"1148","poland","united arab emirates",100,1,1
+"1149","poland","united kingdom",62,50,31
+"1150","poland","united states",66.4,375,249
+"1151","poland","uruguay",92.31,13,12
+"1152","poland","vietnam",0,4,0
+"1153","portugal","italy",0,5,0
+"1154","portugal","portugal",47.13,174,82
+"1155","portugal","romania",0,9,0
+"1156","portugal","united kingdom",0,9,0
+"1157","portugal","united states",0,1,0
+"1158","puerto rico","puerto rico",0,8,0
+"1159","romania","canada",100,12,12
+"1160","romania","czech republic",100,2,2
+"1161","romania","france",100,3,3
+"1162","romania","germany",100,1,1
+"1163","romania","hungary",100,8,8
+"1164","romania","italy",53.33,15,8
+"1165","romania","netherlands",100,1,1
+"1166","romania","new zealand",0,1,0
+"1167","romania","portugal",33.33,6,2
+"1168","romania","romania",79.96,449,359
+"1169","romania","russia",100,5,5
+"1170","romania","sweden",100,1,1
+"1171","romania","ukraine",90,10,9
+"1172","romania","united kingdom",57.14,14,8
+"1173","romania","united states",100,31,31
+"1174","russia","australia",50,6,3
+"1175","russia","austria",100,1,1
+"1176","russia","belarus",75,4,3
+"1177","russia","belgium",0,2,0
+"1178","russia","brazil",100,8,8
+"1179","russia","canada",100,3,3
+"1180","russia","colombia",100,1,1
+"1181","russia","denmark",100,8,8
+"1182","russia","dominican republic",0,1,0
+"1183","russia","estonia",100,1,1
+"1184","russia","finland",0,1,0
+"1185","russia","france",37.5,8,3
+"1186","russia","germany",86.36,22,19
+"1187","russia","hong kong",100,1,1
+"1188","russia","ireland",100,3,3
+"1189","russia","israel",100,1,1
+"1190","russia","italy",100,3,3
+"1191","russia","japan",85.71,21,18
+"1192","russia","kazakhstan",100,1,1
+"1193","russia","latvia",83.33,12,10
+"1194","russia","martinique",100,1,1
+"1195","russia","netherlands",100,5,5
+"1196","russia","new zealand",60,5,3
+"1197","russia","poland",100,1,1
+"1198","russia","portugal",50,2,1
+"1199","russia","russia",45.87,702,322
+"1200","russia","singapore",100,1,1
+"1201","russia","slovenia",100,1,1
+"1202","russia","sweden",100,1,1
+"1203","russia","thailand",100,2,2
+"1204","russia","ukraine",70.59,34,24
+"1205","russia","united kingdom",60,5,3
+"1206","russia","united states",81.82,33,27
+"1207","russia","uruguay",100,2,2
+"1208","saint helena","saint helena",0,1,0
+"1209","san marino","san marino",0,2,0
+"1210","saudi arabia","germany",100,1,1
+"1211","saudi arabia","saudi arabia",88.71,62,55
+"1212","saudi arabia","united states",87.5,8,7
+"1213","serbia","serbia",33.33,33,11
+"1214","singapore","australia",100,1,1
+"1215","singapore","russia",100,2,2
+"1216","singapore","singapore",32.35,34,11
+"1217","singapore","slovenia",100,1,1
+"1218","slovakia","germany",0,1,0
+"1219","slovakia","slovakia",0,9,0
+"1220","slovakia","spain",75,4,3
+"1221","slovenia","slovenia",6.38,47,3
+"1222","south africa","belgium",100,1,1
+"1223","south africa","canada",100,6,6
+"1224","south africa","france",96.88,32,31
+"1225","south africa","india",0,1,0
+"1226","south africa","italy",100,5,5
+"1227","south africa","netherlands",100,1,1
+"1228","south africa","portugal",100,1,1
+"1229","south africa","south africa",91.55,876,802
+"1230","south africa","switzerland",100,1,1
+"1231","south africa","united kingdom",100,11,11
+"1232","south africa","united states",100,73,73
+"1233","south korea","australia",18.18,11,2
+"1234","south korea","belarus",0,2,0
+"1235","south korea","brazil",0,1,0
+"1236","south korea","canada",0,2,0
+"1237","south korea","china",0,3,0
+"1238","south korea","denmark",100,1,1
+"1239","south korea","france",0,4,0
+"1240","south korea","germany",13.64,22,3
+"1241","south korea","india",0,2,0
+"1242","south korea","italy",50,2,1
+"1243","south korea","japan",0,3,0
+"1244","south korea","south korea",8.57,70,6
+"1245","south korea","sweden",0,1,0
+"1246","south korea","united kingdom",100,1,1
+"1247","south korea","united states",12.5,8,1
+"1248","spain","argentina",88.89,9,8
+"1249","spain","australia",83.33,6,5
+"1250","spain","azerbaijan",100,1,1
+"1251","spain","belarus",93.33,15,14
+"1252","spain","belgium",50,2,1
+"1253","spain","brazil",66.67,15,10
+"1254","spain","bulgaria",100,1,1
+"1255","spain","canada",42.86,7,3
+"1256","spain","china",66.67,3,2
+"1257","spain","colombia",100,4,4
+"1258","spain","czech republic",100,4,4
+"1259","spain","denmark",94.87,39,37
+"1260","spain","egypt",100,1,1
+"1261","spain","finland",66.67,3,2
+"1262","spain","france",90.91,33,30
+"1263","spain","germany",100,9,9
+"1264","spain","hungary",0,2,0
+"1265","spain","india",94.31,123,116
+"1266","spain","ireland",100,2,2
+"1267","spain","israel",100,1,1
+"1268","spain","italy",50,4,2
+"1269","spain","japan",89.47,19,17
+"1270","spain","jersey",100,1,1
+"1271","spain","latvia",100,1,1
+"1272","spain","mexico",66.67,3,2
+"1273","spain","netherlands",83.33,6,5
+"1274","spain","new zealand",66.67,3,2
+"1275","spain","None",50,2,1
+"1276","spain","norway",100,3,3
+"1277","spain","peru",77.78,9,7
+"1278","spain","poland",50,2,1
+"1279","spain","portugal",100,1,1
+"1280","spain","romania",75,4,3
+"1281","spain","russia",81.82,11,9
+"1282","spain","spain",81.16,1035,840
+"1283","spain","sweden",100,13,13
+"1284","spain","switzerland",86.67,15,13
+"1285","spain","taiwan",100,1,1
+"1286","spain","thailand",0,1,0
+"1287","spain","ukraine",100,6,6
+"1288","spain","united kingdom",58.82,17,10
+"1289","spain","united states",74.07,81,60
+"1290","spain","uruguay",100,1,1
+"1291","sri lanka","sri lanka",50,4,2
+"1292","sweden",NA,100,6,6
+"1293","sweden","argentina",25,4,1
+"1294","sweden","australia",50,16,8
+"1295","sweden","belarus",55.56,9,5
+"1296","sweden","belgium",100,4,4
+"1297","sweden","bermuda",50,2,1
+"1298","sweden","brazil",60,10,6
+"1299","sweden","canada",69.57,23,16
+"1300","sweden","china",100,9,9
+"1301","sweden","colombia",100,1,1
+"1302","sweden","croatia",100,1,1
+"1303","sweden","denmark",62.5,16,10
+"1304","sweden","egypt",0,1,0
+"1305","sweden","estonia",50,2,1
+"1306","sweden","finland",100,7,7
+"1307","sweden","france",94.74,38,36
+"1308","sweden","germany",75.23,109,82
+"1309","sweden","hong kong",0,1,0
+"1310","sweden","india",57.14,7,4
+"1311","sweden","indonesia",0,1,0
+"1312","sweden","ireland",50,2,1
+"1313","sweden","italy",87.27,110,96
+"1314","sweden","japan",94.74,57,54
+"1315","sweden","kyrgyzstan",100,1,1
+"1316","sweden","latvia",100,1,1
+"1317","sweden","macedonia",100,1,1
+"1318","sweden","mexico",0,1,0
+"1319","sweden","netherlands",45.45,11,5
+"1320","sweden","new zealand",100,18,18
+"1321","sweden","None",100,1,1
+"1322","sweden","norway",100,4,4
+"1323","sweden","peru",100,1,1
+"1324","sweden","poland",58.33,12,7
+"1325","sweden","portugal",0,2,0
+"1326","sweden","romania",100,1,1
+"1327","sweden","russia",83.33,6,5
+"1328","sweden","singapore",100,1,1
+"1329","sweden","south africa",33.33,3,1
+"1330","sweden","spain",57.14,7,4
+"1331","sweden","sweden",67.14,636,427
+"1332","sweden","switzerland",66.67,12,8
+"1333","sweden","taiwan",100,1,1
+"1334","sweden","ukraine",100,6,6
+"1335","sweden","united kingdom",77.38,84,65
+"1336","sweden","united states",72.57,226,164
+"1337","sweden","uruguay",80,5,4
+"1338","switzerland","argentina",50,4,2
+"1339","switzerland","australia",88.89,18,16
+"1340","switzerland","austria",0,1,0
+"1341","switzerland","belarus",100,1,1
+"1342","switzerland","belgium",100,5,5
+"1343","switzerland","brazil",45,20,9
+"1344","switzerland","canada",86.67,15,13
+"1345","switzerland","china",88.89,9,8
+"1346","switzerland","czech republic",75,8,6
+"1347","switzerland","denmark",100,4,4
+"1348","switzerland","egypt",100,1,1
+"1349","switzerland","estonia",0,1,0
+"1350","switzerland","france",75.76,33,25
+"1351","switzerland","germany",61.9,21,13
+"1352","switzerland","hungary",66.67,3,2
+"1353","switzerland","india",78.57,56,44
+"1354","switzerland","italy",66.67,9,6
+"1355","switzerland","japan",91.67,24,22
+"1356","switzerland","latvia",100,1,1
+"1357","switzerland","macedonia",89.47,19,17
+"1358","switzerland","netherlands",100,6,6
+"1359","switzerland","new zealand",100,3,3
+"1360","switzerland","nicaragua",100,1,1
+"1361","switzerland","norway",83.33,6,5
+"1362","switzerland","poland",75,4,3
+"1363","switzerland","portugal",75,4,3
+"1364","switzerland","russia",73.33,45,33
+"1365","switzerland","serbia",0,4,0
+"1366","switzerland","singapore",100,12,12
+"1367","switzerland","slovenia",95.83,24,23
+"1368","switzerland","spain",100,4,4
+"1369","switzerland","sweden",100,5,5
+"1370","switzerland","switzerland",77.1,1891,1458
+"1371","switzerland","taiwan",100,6,6
+"1372","switzerland","thailand",100,1,1
+"1373","switzerland","turkey",50,2,1
+"1374","switzerland","ukraine",94.12,17,16
+"1375","switzerland","united kingdom",60,65,39
+"1376","switzerland","united states",83.98,181,152
+"1377","taiwan","australia",100,1,1
+"1378","taiwan","china",100,3,3
+"1379","taiwan","taiwan",39.29,28,11
+"1380","thailand","thailand",12.5,8,1
+"1381","trinidad and tobago","trinidad and tobago",100,1,1
+"1382","tunisia","tunisia",0,3,0
+"1383","turkey","argentina",100,4,4
+"1384","turkey","australia",100,3,3
+"1385","turkey","belarus",50,2,1
+"1386","turkey","belgium",100,3,3
+"1387","turkey","brazil",85.71,7,6
+"1388","turkey","bulgaria",100,1,1
+"1389","turkey","canada",100,9,9
+"1390","turkey","chile",100,1,1
+"1391","turkey","colombia",100,1,1
+"1392","turkey","france",70,10,7
+"1393","turkey","germany",95.65,23,22
+"1394","turkey","greece",100,5,5
+"1395","turkey","hungary",100,1,1
+"1396","turkey","india",71.43,7,5
+"1397","turkey","italy",100,2,2
+"1398","turkey","japan",90,10,9
+"1399","turkey","luxembourg",100,1,1
+"1400","turkey","mexico",100,2,2
+"1401","turkey","moldova",62.5,8,5
+"1402","turkey","netherlands",75,4,3
+"1403","turkey","new zealand",100,4,4
+"1404","turkey","norway",100,3,3
+"1405","turkey","paraguay",100,2,2
+"1406","turkey","poland",100,3,3
+"1407","turkey","portugal",100,1,1
+"1408","turkey","russia",82.14,28,23
+"1409","turkey","serbia",100,1,1
+"1410","turkey","singapore",100,1,1
+"1411","turkey","south africa",0,1,0
+"1412","turkey","sweden",100,4,4
+"1413","turkey","switzerland",50,2,1
+"1414","turkey","turkey",81.97,122,100
+"1415","turkey","ukraine",100,5,5
+"1416","turkey","united kingdom",76.92,13,10
+"1417","turkey","united states",93.75,208,195
+"1418","uganda","uganda",20,5,1
+"1419","uganda","united states",100,1,1
+"1420","ukraine","argentina",100,1,1
+"1421","ukraine","australia",88.89,9,8
+"1422","ukraine","austria",50,2,1
+"1423","ukraine","azerbaijan",86.27,51,44
+"1424","ukraine","belarus",75,8,6
+"1425","ukraine","belgium",40,5,2
+"1426","ukraine","brazil",84.62,13,11
+"1427","ukraine","bulgaria",100,1,1
+"1428","ukraine","canada",72.73,22,16
+"1429","ukraine","chile",0,1,0
+"1430","ukraine","china",78.38,37,29
+"1431","ukraine","costa rica",50,2,1
+"1432","ukraine","croatia",50,4,2
+"1433","ukraine","czech republic",66.67,9,6
+"1434","ukraine","denmark",100,2,2
+"1435","ukraine","estonia",100,2,2
+"1436","ukraine","finland",100,4,4
+"1437","ukraine","france",70.73,41,29
+"1438","ukraine","germany",74.63,67,50
+"1439","ukraine","greece",40,5,2
+"1440","ukraine","hungary",100,2,2
+"1441","ukraine","india",64.29,14,9
+"1442","ukraine","indonesia",75,4,3
+"1443","ukraine","ireland",100,3,3
+"1444","ukraine","israel",100,1,1
+"1445","ukraine","italy",66.67,6,4
+"1446","ukraine","japan",91.18,68,62
+"1447","ukraine","kazakhstan",100,1,1
+"1448","ukraine","latvia",85.71,7,6
+"1449","ukraine","netherlands",81.58,38,31
+"1450","ukraine","new zealand",100,1,1
+"1451","ukraine","None",100,2,2
+"1452","ukraine","norway",0,2,0
+"1453","ukraine","panama",88.89,9,8
+"1454","ukraine","poland",50,2,1
+"1455","ukraine","portugal",87.5,8,7
+"1456","ukraine","russia",89.74,78,70
+"1457","ukraine","slovenia",100,3,3
+"1458","ukraine","south korea",0,1,0
+"1459","ukraine","spain",50,6,3
+"1460","ukraine","sweden",100,1,1
+"1461","ukraine","switzerland",100,9,9
+"1462","ukraine","taiwan",100,2,2
+"1463","ukraine","thailand",100,1,1
+"1464","ukraine","ukraine",54.08,331,179
+"1465","ukraine","united kingdom",74.29,35,26
+"1466","ukraine","united states",79.86,139,111
+"1467","united arab emirates","argentina",100,1,1
+"1468","united arab emirates","brazil",100,1,1
+"1469","united arab emirates","bulgaria",100,2,2
+"1470","united arab emirates","czech republic",100,8,8
+"1471","united arab emirates","finland",100,1,1
+"1472","united arab emirates","france",100,3,3
+"1473","united arab emirates","hungary",100,2,2
+"1474","united arab emirates","israel",100,2,2
+"1475","united arab emirates","netherlands",100,4,4
+"1476","united arab emirates","spain",100,1,1
+"1477","united arab emirates","sweden",100,6,6
+"1478","united arab emirates","united arab emirates",66.67,3,2
+"1479","united kingdom",NA,42.86,7,3
+"1480","united kingdom","argentina",61.54,13,8
+"1481","united kingdom","australia",81.07,243,197
+"1482","united kingdom","austria",20,10,2
+"1483","united kingdom","azerbaijan",100,1,1
+"1484","united kingdom","belarus",68.18,22,15
+"1485","united kingdom","belgium",38.78,49,19
+"1486","united kingdom","bolivia",0,1,0
+"1487","united kingdom","bosnia and herzegovina",50,2,1
+"1488","united kingdom","brazil",48.1,79,38
+"1489","united kingdom","bulgaria",100,1,1
+"1490","united kingdom","cambodia",100,1,1
+"1491","united kingdom","canada",78.38,148,116
+"1492","united kingdom","chile",33.33,3,1
+"1493","united kingdom","china",61.7,47,29
+"1494","united kingdom","colombia",52.94,17,9
+"1495","united kingdom","costa rica",0,1,0
+"1496","united kingdom","czech republic",22.73,66,15
+"1497","united kingdom","denmark",68.57,35,24
+"1498","united kingdom","dominican republic",83.33,12,10
+"1499","united kingdom","ecuador",0,1,0
+"1500","united kingdom","egypt",0,2,0
+"1501","united kingdom","estonia",42.86,7,3
+"1502","united kingdom","finland",46.67,15,7
+"1503","united kingdom","france",76.06,355,270
+"1504","united kingdom","georgia",0,2,0
+"1505","united kingdom","germany",47.96,367,176
+"1506","united kingdom","greece",83.33,6,5
+"1507","united kingdom","hong kong",62.5,8,5
+"1508","united kingdom","hungary",25,4,1
+"1509","united kingdom","iceland",50,4,2
+"1510","united kingdom","india",74.87,187,140
+"1511","united kingdom","indonesia",80,5,4
+"1512","united kingdom","ireland",55.56,18,10
+"1513","united kingdom","israel",31.48,54,17
+"1514","united kingdom","italy",47.46,118,56
+"1515","united kingdom","japan",53.85,91,49
+"1516","united kingdom","jersey",25,4,1
+"1517","united kingdom","jordan",0,1,0
+"1518","united kingdom","kenya",0,1,0
+"1519","united kingdom","kyrgyzstan",50,2,1
+"1520","united kingdom","latvia",75,12,9
+"1521","united kingdom","lithuania",0,4,0
+"1522","united kingdom","luxembourg",0,1,0
+"1523","united kingdom","malaysia",33.33,3,1
+"1524","united kingdom","mexico",50,2,1
+"1525","united kingdom","nepal",50,2,1
+"1526","united kingdom","netherlands",55.32,94,52
+"1527","united kingdom","new zealand",84.85,33,28
+"1528","united kingdom","None",40,15,6
+"1529","united kingdom","norway",42.86,21,9
+"1530","united kingdom","pakistan",0,1,0
+"1531","united kingdom","panama",0,1,0
+"1532","united kingdom","peru",50,2,1
+"1533","united kingdom","philippines",50,2,1
+"1534","united kingdom","poland",50,52,26
+"1535","united kingdom","portugal",18.33,60,11
+"1536","united kingdom","romania",28.13,32,9
+"1537","united kingdom","russia",48.45,97,47
+"1538","united kingdom","serbia",85.71,7,6
+"1539","united kingdom","singapore",14.29,14,2
+"1540","united kingdom","slovakia",0,10,0
+"1541","united kingdom","slovenia",18.03,61,11
+"1542","united kingdom","south africa",85.71,14,12
+"1543","united kingdom","south korea",0,1,0
+"1544","united kingdom","spain",54.76,84,46
+"1545","united kingdom","sri lanka",0,1,0
+"1546","united kingdom","sweden",48.23,141,68
+"1547","united kingdom","switzerland",64.91,57,37
+"1548","united kingdom","taiwan",57.14,7,4
+"1549","united kingdom","thailand",0,1,0
+"1550","united kingdom","turkey",66.67,6,4
+"1551","united kingdom","ukraine",42.86,42,18
+"1552","united kingdom","united kingdom",83.16,10045,8353
+"1553","united kingdom","united states",62.33,1829,1140
+"1554","united kingdom","uruguay",33.33,6,2
+"1555","united kingdom","vietnam",33.33,6,2
+"1556","united states",NA,75,64,48
+"1557","united states","algeria",0,1,0
+"1558","united states","argentina",63.64,110,70
+"1559","united states","australia",56.04,671,376
+"1560","united states","austria",54.13,109,59
+"1561","united states","azerbaijan",100,9,9
+"1562","united states","bangladesh",85.71,14,12
+"1563","united states","belarus",65.37,231,151
+"1564","united states","belgium",79.84,501,400
+"1565","united states","bermuda",40,10,4
+"1566","united states","bolivia",100,2,2
+"1567","united states","bosnia and herzegovina",33.33,3,1
+"1568","united states","brazil",57.16,796,455
+"1569","united states","bulgaria",71.79,39,28
+"1570","united states","cambodia",100,1,1
+"1571","united states","canada",72.42,1320,956
+"1572","united states","chile",50,16,8
+"1573","united states","china",58.4,351,205
+"1574","united states","colombia",66.15,65,43
+"1575","united states","costa rica",66.67,3,2
+"1576","united states","croatia",70,10,7
+"1577","united states","cuba",100,1,1
+"1578","united states","czech republic",70.73,246,174
+"1579","united states","denmark",43.59,195,85
+"1580","united states","dominican republic",75,4,3
+"1581","united states","ecuador",66.67,3,2
+"1582","united states","egypt",60,5,3
+"1583","united states","el salvador",66.67,3,2
+"1584","united states","estonia",50,28,14
+"1585","united states","finland",60.52,233,141
+"1586","united states","france",60.7,1369,831
+"1587","united states","georgia",66.67,3,2
+"1588","united states","germany",53.43,1911,1021
+"1589","united states","ghana",100,2,2
+"1590","united states","greece",61.97,71,44
+"1591","united states","guatemala",0,1,0
+"1592","united states","honduras",50,2,1
+"1593","united states","hong kong",74.07,27,20
+"1594","united states","hungary",76.32,38,29
+"1595","united states","iceland",79.07,43,34
+"1596","united states","india",69.02,907,626
+"1597","united states","indonesia",72,25,18
+"1598","united states","iran",85.71,7,6
+"1599","united states","ireland",58.45,142,83
+"1600","united states","israel",58.11,74,43
+"1601","united states","italy",54.82,301,165
+"1602","united states","japan",59.01,710,419
+"1603","united states","jersey",60.87,23,14
+"1604","united states","kazakhstan",40,5,2
+"1605","united states","kuwait",0,1,0
+"1606","united states","kyrgyzstan",50,12,6
+"1607","united states","latvia",65.38,26,17
+"1608","united states","lebanon",66.67,3,2
+"1609","united states","lithuania",57.14,14,8
+"1610","united states","luxembourg",20,5,1
+"1611","united states","macedonia",66.67,24,16
+"1612","united states","malaysia",66.67,6,4
+"1613","united states","mexico",55.77,52,29
+"1614","united states","moldova",53.85,13,7
+"1615","united states","mongolia",0,1,0
+"1616","united states","montenegro",0,1,0
+"1617","united states","morocco",100,4,4
+"1618","united states","nepal",66.67,3,2
+"1619","united states","netherlands",67.55,564,381
+"1620","united states","new zealand",65.13,238,155
+"1621","united states","nigeria",50,2,1
+"1622","united states","None",67.47,83,56
+"1623","united states","norway",71.08,166,118
+"1624","united states","pakistan",11.11,9,1
+"1625","united states","palestinian territories",0,3,0
+"1626","united states","paraguay",100,1,1
+"1627","united states","peru",41.35,133,55
+"1628","united states","philippines",25.49,51,13
+"1629","united states","poland",62.55,267,167
+"1630","united states","portugal",59.49,79,47
+"1631","united states","puerto rico",83.33,12,10
+"1632","united states","reunion",100,1,1
+"1633","united states","romania",85.2,223,190
+"1634","united states","russia",59.42,552,328
+"1635","united states","rwanda",100,1,1
+"1636","united states","san marino",0,4,0
+"1637","united states","saudi arabia",96.15,26,25
+"1638","united states","senegal",0,3,0
+"1639","united states","serbia",54.1,61,33
+"1640","united states","singapore",53.85,91,49
+"1641","united states","slovakia",55.56,18,10
+"1642","united states","slovenia",73.33,30,22
+"1643","united states","south africa",91.35,393,359
+"1644","united states","south korea",80.14,141,113
+"1645","united states","spain",68.45,374,256
+"1646","united states","sri lanka",100,4,4
+"1647","united states","sweden",49.08,436,214
+"1648","united states","switzerland",72.3,343,248
+"1649","united states","taiwan",50,76,38
+"1650","united states","thailand",42.86,21,9
+"1651","united states","trinidad and tobago",100,3,3
+"1652","united states","turkey",68.37,98,67
+"1653","united states","uganda",100,1,1
+"1654","united states","ukraine",45.61,410,187
+"1655","united states","united arab emirates",50,2,1
+"1656","united states","united kingdom",68.67,2247,1543
+"1657","united states","united states",71.12,46529,33090
+"1658","united states","uruguay",62.79,43,27
+"1659","united states","uzbekistan",0,1,0
+"1660","united states","venezuela",50,8,4
+"1661","united states","vietnam",86.67,15,13
+"1662","united states","virgin islands",0,1,0
+"1663","united states","zambia",85.71,7,6
+"1664","uruguay","argentina",100,2,2
+"1665","uruguay","australia",90,10,9
+"1666","uruguay","austria",100,2,2
+"1667","uruguay","azerbaijan",100,1,1
+"1668","uruguay","belarus",100,5,5
+"1669","uruguay","belgium",100,7,7
+"1670","uruguay","bolivia",72.73,11,8
+"1671","uruguay","brazil",82.61,23,19
+"1672","uruguay","bulgaria",100,1,1
+"1673","uruguay","canada",85,20,17
+"1674","uruguay","chile",100,1,1
+"1675","uruguay","china",77.78,9,7
+"1676","uruguay","colombia",91.49,47,43
+"1677","uruguay","czech republic",100,1,1
+"1678","uruguay","denmark",66.67,3,2
+"1679","uruguay","finland",0,2,0
+"1680","uruguay","france",79.31,29,23
+"1681","uruguay","germany",90.48,21,19
+"1682","uruguay","hungary",66.67,3,2
+"1683","uruguay","india",93.04,115,107
+"1684","uruguay","israel",100,1,1
+"1685","uruguay","italy",100,5,5
+"1686","uruguay","japan",96,25,24
+"1687","uruguay","kenya",100,1,1
+"1688","uruguay","lithuania",100,1,1
+"1689","uruguay","mexico",91.67,12,11
+"1690","uruguay","moldova",100,2,2
+"1691","uruguay","netherlands",100,7,7
+"1692","uruguay","new zealand",100,3,3
+"1693","uruguay","peru",100,6,6
+"1694","uruguay","philippines",0,1,0
+"1695","uruguay","poland",100,5,5
+"1696","uruguay","romania",83.33,12,10
+"1697","uruguay","russia",81.97,61,50
+"1698","uruguay","saudi arabia",100,1,1
+"1699","uruguay","singapore",100,5,5
+"1700","uruguay","slovenia",100,1,1
+"1701","uruguay","spain",72.73,11,8
+"1702","uruguay","sweden",75,4,3
+"1703","uruguay","switzerland",80,5,4
+"1704","uruguay","taiwan",60,5,3
+"1705","uruguay","turkey",100,4,4
+"1706","uruguay","ukraine",85,20,17
+"1707","uruguay","united kingdom",72.97,37,27
+"1708","uruguay","united states",84.52,155,131
+"1709","uruguay","uruguay",81.58,76,62
+"1710","uruguay","venezuela",0,1,0
+"1711","venezuela",NA,100,1,1
+"1712","venezuela","argentina",100,2,2
+"1713","venezuela","austria",100,1,1
+"1714","venezuela","belgium",100,2,2
+"1715","venezuela","brazil",100,16,16
+"1716","venezuela","canada",100,29,29
+"1717","venezuela","costa rica",100,1,1
+"1718","venezuela","denmark",100,5,5
+"1719","venezuela","france",100,7,7
+"1720","venezuela","germany",100,10,10
+"1721","venezuela","india",100,1,1
+"1722","venezuela","japan",100,30,30
+"1723","venezuela","netherlands",100,2,2
+"1724","venezuela","serbia",100,1,1
+"1725","venezuela","singapore",100,3,3
+"1726","venezuela","south africa",100,1,1
+"1727","venezuela","spain",100,1,1
+"1728","venezuela","switzerland",100,2,2
+"1729","venezuela","thailand",100,1,1
+"1730","venezuela","united kingdom",100,4,4
+"1731","venezuela","united states",100,28,28
+"1732","venezuela","venezuela",33.33,3,1
+"1733","vietnam","france",0,1,0
+"1734","vietnam","tunisia",0,9,0
+"1735","vietnam","ukraine",20,10,2
+"1736","vietnam","vietnam",7.23,166,12
+"1737","virgin islands","virgin islands",0,6,0
+"1738","zambia","zambia",0,1,0
