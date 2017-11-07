@@ -1,26 +1,27 @@
 #1 how many pull requests are available in the data for analysis? = 131191
+(cnt_all_pr)
 
-#2 how many pull requests are submitted from each country?
+#2 how many pull requests are submitted from each country? (cnt_each_country_pr)
 There is 123 country where have nationalities of submitters.
 summary count_pr -> min : 1.0/ 1st Qu : 8.0 / midian : 52.5 / Mean 1058 / 3rd Qu 448 / Max : 55633
 The country that has the most submitted pull requsets is United states.The United states has 55633 pull request
 The number of countries that has one submitted pull request are 12
 
-#3 How many pull requests are submitted to each project?
+#3 How many pull requests are submitted to each project?(cnt_repo_pr)
 There is 999 projects.
 
 
-#4 how many pull requests are reviewed by each developers?
+#4 how many pull requests are reviewed by each developers?(cnt_reviewed_pr)
 This result is really strange.
 Min = 1.00 / 1st Qu. = 1.00 / Median = 2.00/ Mean = 26.57 / 3rd Qu.=8.00 / Max = 39216.00
 The interesting thing about this result is that 3047 reviewers out of 6419 reviewers have reviewed just once. 
 The number of reviewers who reviewed pull requests up to 0.1% of total is 242.
 
-#How many people who prs and prm are the same person and prs and prc are the same person are?
+#How many people who prs and prm are the same person and prs and prc are the same person are? (prs_m_same, prs_c_same)
 all pr = 131191 / prs=prm : 31386 / prs=prc : 48321 / prs=prc and merged :31673 / prs=prc and closed :16648
 It mean prs=prm : 23.92% prs_prc : 36.83% -> merged :24.14 (65.55) , closed :12.69(34.45) 
 
-#5 what is thae start and end dataes of activities in the dataset?
+#5 what is thae start and end dataes of activities in the dataset? (act_st_end)
 I had difficulty getting the first and last time of pull requests in the whole, so I serched differently according to each situation.
 crated_at = 2010-08-31 12:19:21 / 2014-02-07 20:58:13
 merged_at = 2011-03-17 06:26:10 / 2014-02-08 00:35:41
@@ -32,7 +33,7 @@ the last pull request  => close 2014-02-08 07:55:53
 
 #7 How many pull requests are submitted per country? => The result is same as #2 question.
 
-#8 How many pull requests are evaluated per country?
+#8 How many pull requests are evaluated per country?(cnt_eval_pr)
 The most evaluated country is the United States (64641)
 The second most evaluated country is the United kingdom(14776)
 The smallest number is 1, and 16 countries are evaluated once.
@@ -40,7 +41,7 @@ The smallest number is 1, and 16 countries are evaluated once.
 The total number of countries is 105.
 min :1 / 1st qu :4 / midian : 38 / mean :1248 / 3rd Qu. : 487 / max : 64641
 
-# What country has the largest number of diffrence between submission and evaluating?
+# What country has the largest number of diffrence between submission and evaluating? (m_eval_submit)
 I built this expression. the number of submission - the number of evaluation = ?
 The country with the largest positive difference is India.(1806)
 The country with the second largest positive difference is Japan(1469)
@@ -53,7 +54,7 @@ The number of countries whrer the difference is 0 is 3.
 
 There are a lot of countries that generally submit more than evaluation.
 
-#9 #10 What is the pull request acceptance rate when the pull requests are divide based on the country of submitter?
+#9 #10 What is the pull request acceptance rate when the pull requests are divide based on the country of submitter?(country_merge_rate
 summary merge_rate >> min :0 / 1st Qu : 46 / median :60 / mean : 56 / 3rd qu :71 / max :100
 There are 6 countries that has 100% accept rate, and 13 countries that has 0% accept rate.
 
@@ -88,11 +89,11 @@ but, Integrtion rate of 0% mean no one has ever been merged.
 And the numbers 12 and 13 might be seem to be relatively high compared to countries with 0% integration rate, but it is not large in the overall data.
 One of the factors I can guess is that they were inexperience submitter, and the countries was a unfamiliar country to integrator.
 
-#11 How many projects are analyzed? = There is 999 projects.
+#11 How many projects are analyzed? = There is 999 projects.(cnt_repo)
 
 #12 How many pull requsets are analyzed per projects? = The result is same as #2 
 
-#13 How many developers work for each project?
+#13 How many developers work for each project?(cnt_dev_project)
 The project name with the most developers is 'rails' (6137)
 The number of projects with the fewest developers is 24, The number of developer at project with the fewest developer is 1.
 min :1 / 1st Qu : 24.5 / median :71 / mean : 131.3 / 3rd Qu : 129.5 / Max :6137 
@@ -100,7 +101,7 @@ min :1 / 1st Qu : 24.5 / median :71 / mean : 131.3 / 3rd Qu : 129.5 / Max :6137
 The number of projects with fewer than 10 developers is 148. 
 This number is about 15% at total number of projects, since the total number of projects is 999.
 
-# how many people are the same person with submitter and merger and submitter and closer from country?
+# how many people are the same person with submitter and merger and submitter and closer from country?(s_m_c_same)
 The United States,which has the highest number of requests, is 20 percent of its that had merged own self and 40% of its that had closed own self. 
 Armenia has 100% merge rate, but all sumitters and mergers is same.
 51 countries have 0% of rate that sumbitter and the merger is same out of entire pull requset.
@@ -112,7 +113,7 @@ But Vietnam has 5% of rate that submitters and mergers are same, even though 57.
 South Africa has 1378 pull requests and 91% merge rate, but rate of what the submitter and the merger are the same is 54.57%
 Poland has 843 pull request and the rate of what submitter and the merger is 3.32%
 
-#14 What is the pull request acceptance rate per project? 
+#14 What is the pull request acceptance rate per project? (repo_merge_rate)
 summary(repo_merge_rate)
 min:0 / 1st qu :43.95 / median :75.38 / Mean : 63.83 / 3rd Qu : 90.12 / Max :100
 There is 56 projects that has 100% merge rate and 103 projects that has 0% merge rate.
@@ -129,8 +130,8 @@ What is unique project is 'Clashnia/Minecraft-Demigods'. That has 151 pull reque
 Actually I couldn't find out complete reasoon that they has that merge rate.
 but the reason that over helf projcet having 0% merge rate have that merge rate is submitter closed their pull request themselves.
 
-#15 What is the average time to merge a pull request per project?
-#16 What is the average time to close a pull request per project?
+#15 What is the average time to merge a pull request per project?(avg_merge_time)
+#16 What is the average time to close a pull request per project?(avg_close_time)
 average merge time : 7920.818 min
 summary // min:0 / 1st Qu.: 17 / median : 260 / Mean :7021 / 3rd Qu.:2516 / Max.: 1328549 
 It looks really werid. That summary said 75% pull request is merged within 3000 min(= 50 hour = about 2days)
@@ -144,7 +145,7 @@ But, When I looked the histogram of close time, most of closed pull request also
 I think the time will be shorter if submitter merged or closed the pull reqest themselves.
 So I made that table (15-2 / 16-2)
 
-(15-1 / 15-2)
+(15-1 / 15-2) (each_merge_time, s_m_merge_time,s_m__merge_time)
 first, at the case submitter merged the pull requests themselves, merge times tend to be shorter then merge times in all things. 
 summary // min:0 /1st Qu. : 1 / Median :101 / Mean :4122 / 3rd Qu : 1678 / Max : 990538
 The number of total pull request at this table is 31386. and the number of pull request having 0 merge time is 7075!
@@ -154,7 +155,7 @@ summary // min:0 / 1st Qu : 33 / Median : 364 / Mean : 8523 / 3rd Qu : 2780 / Ma
 Certainly, you can see that the time for merging by others in noticeably longer.
 
 
-(16-1 / 16-2)
+(16-1 / 16-2) (each_merge_time, s_c_merge_time, s_c__merge_time)
 How about close time?
 at the case submitter closed the pull requests themselves, we can get the result
 summary // min :0 / 1st Qu: 26 / midian : 1010 / mean : 21760 / 3rd Qu: 7518 / Max : 1460121
@@ -164,7 +165,7 @@ I think the close times that submitter closed themselves seem it doesn't make mu
 but the reverse cases seem it takes longer time then close times of all data.
 
 
-#18 #19 How many pull requests are submitted by each developer?(and merged)
+#18 #19 How many pull requests are submitted by each developer? (cnt_prs_pr)
 summery about cnt_pr // min :1 / 1st Qu : 1 / Median : 2 / Mean :7 / 3rd Qu : 4 / Max : 384
 It is really interesting. 
 75% of the total developers submitted pull request just no more than 4 times.
@@ -194,7 +195,31 @@ And How many people who submitted one pull request has 100 merge rate?
 3848 developers get 100% merge rate. that mean 49% of developers who submitted one pull request get 100% merge rate.
 and 51% of developers who submitted one pull request get 0% merge rate.
 
-#20 How many developers work as submittes for each country?
+## What about case where developers submitted 2 pull requests?
+total_pr : 2991
+merge_rate = 100 : 1020 (34.10%)
+merge_rate = 50 : 1049 (35.07%)
+merge_rate = 0 : 922 (30.82%)
+
+## What about case where developers submitted 3 pull requests?
+total_pr :1479
+merge_rate = 100 : 370 (25.01%)
+merge_rate = 66.67 : 430 (29.07%)
+merge_rate = 33.33 : 379 (25.62%)
+merge_rate = 0 : 300 (20.28%)
+
+## What about case where developers submitted 4 pull requests?
+total_pr :976
+merge_rate = 100 : 195 (19.97%)
+merge_rate = 75 : 243 (24.89%)
+merge_rate = 50 : 223 (22.84%)
+merge_rate = 25 : 149 (15.26%)
+merge_rate = 0 : 166 (17.00%)
+
+## What about case where developers submitted 5 pull requests?
+
+
+#20 How many developers work as submittes for each country? (cnt_prs_country)
 there is 123 countries.
 and summary of count is
 Min : 1 / 1st Qu :3 / Median : 12 / Mean :141.1 / 3rd Qu.:66.5 / Max : 6621 
@@ -203,24 +228,24 @@ the country with secound most submitters is United kingdom(1277)
 there is 59 countries with less then 10 submitters.
   
 
-#21 How many developers work as integrators for each country?
+#21 How many developers work as integrators for each country? (cnt_pri_country)
 There is 104 countries.
 and summary of count is
 Min :1 / 1st Qu :2 / Median : 7 / Mean : 61 / 3rd Qu.:32.25 / Max :2594.00
 The country with the most integrators is United states(2594)
 The country with secound most integrators is united kingdom(499)
 
-#Is there more consolidators than submitters?
+#Is there more consolidators than submitters? (country)
 I expected it to be, but strangely, not one country!
 I add the column that has cnt_prs minus cnt_pri. that mean gap between the number of submitters and the numbber of integrators.
 The minimum value of that column is 0. that mean no country has more integrators than submitters.
 
-#22 developers from how many countries work for each project?
+#22 developers from how many countries work for each project? (cnt_repo_country)
 The project with most of particepated countries is rails/rails. There are 70 countries participating in this project  
 the summary is
 Min : 1 / 1st Qu : 2 / Median : 5 / Mean :8.51 / 3rd Qu :13 / Max :70
 
-#Is there any correlation between the number of participating countries and the merging rate?
+#Is there any correlation between the number of participating countries and the merging rate?(repo)
 count(distinct dev_country) is the number of country per project
 count(distinct dev_id) is the number of devleoper per project.
  
@@ -230,13 +255,13 @@ count(distinct dev_id) is the number of devleoper per project.
 [correlation coefficient] cor(repo$`count(distinct dev_id)`,repo$merge_rate) => -0.05046593
 There is no significant correlation since the correlation coefficient is close to 0.
 
-#23 For integrators of each country, what is the pull request acceptance rate for every other country?
+#23 For integrators of each country, what is the pull request acceptance rate for every other country? (pri_country_merge_rate)
 the number of countries with 100 pri_merge_rate is 3. they are 'Armenia','Jamaica' and 'Trinidad and tobago'
 but they have only one integrators.
 Among the countries with high pri_merge_rate, there is Belgium and Spain in countries with over than 100 integrators.
 Belgium has 164 integrators and Spain has 272 integrators. but they has 89.28% pri_merge_rate and 82.29 merge_rate.
 
-#23-1 How many percentage of merging requests from different countries for each country?
+#23-1 How many percentage of merging requests from different countries for each country? (prs_pri_country_merge_rate)
 I made over20_s_i_merge_rate to find the valuable value
 That has rows having pull requsets over 20 times
 marge_rate =100 % [ integrator => submitter ]
@@ -277,3 +302,5 @@ Person is romania have merged pull requests from United states, Romania
 Person is South afreica have merged pull requests from United states, France, South Africa.
 	Integrated rate of pull requests submitted by France is 96.88%(32)
 	and by South africa is 91.55%(876)
+
+
