@@ -1,0 +1,18 @@
+# range1_until10
+	There is the results indicating the merging rate and the number of submissions resulting in the case where the number of requests is 1 to 10.
+	The merging rates of pull request sumitted by people who submit from  one to five times.
+	After than, the number of people tends to be higher than 50.
+
+# range10_until100
+	There is the results having number of submitters based on merge rate 0 to 100 times divided by 10 units
+	The more people who make a lot of pull requests, the more people with high margins.
+
+# range3_until50
+	There is the result having unmber of submitters based on merge rate 1times to 100 times divided by 3 units
+	There is also show that the more people who mwke a lot of pull requests, the more people with high mergins. 
+	This phenomenon can be seen in more than 10 pull requests.
+	In requests of 10 or fewer, there were many who matched the merging rate at both ends like 0 or 100.
+
+#
+	
+	

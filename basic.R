@@ -304,6 +304,44 @@ nrow(four_prs_pr[four_prs_pr$merge_rate ==50,]) #223 22.84%
 nrow(four_prs_pr[four_prs_pr$merge_rate ==25,]) #149 15.26%
 nrow(four_prs_pr[four_prs_pr$merge_rate ==0,]) #166 17.00%
 
+five_prs_pr <- cnt_prs_pr[cnt_prs_pr$cnt_pr ==5,]
+nrow(five_prs_pr) #641
+nrow(five_prs_pr[five_prs_pr$merge_rate ==100,]) #96 14.97%
+nrow(five_prs_pr[five_prs_pr$merge_rate ==80,]) #149 23.24%
+nrow(five_prs_pr[five_prs_pr$merge_rate ==60,]) #129 20.12%
+nrow(five_prs_pr[five_prs_pr$merge_rate ==40,]) #95 14.82%
+nrow(five_prs_pr[five_prs_pr$merge_rate ==20,]) #81 12.63%
+nrow(five_prs_pr[five_prs_pr$merge_rate ==0,]) #91 14.19%
+
+six_prs_pr <- cnt_prs_pr[cnt_prs_pr$cnt_pr ==6,]
+total = nrow(six_prs_pr)
+cat(total)
+for (i in 0:6){
+  x = nrow(six_prs_pr[six_prs_pr$merge_rate == round(100*i/6,2),])
+  cat(round(100*i/6,2), " => ",x," ",x/total*100,"\n")
+}
+
+filere ="/home/dohyun/Desktop/R/num_pr_result"
+
+sample<-c(1,2,5,10,20,50)
+for(num in 1:50){
+  cat(c("# What about case where developers submitted ",num," pull requests?\n"),file=filere, append=TRUE, sep=" ")
+  #cat(st,fileConn,append=TRUE)
+  
+  tmp <-cnt_prs_pr[cnt_prs_pr$cnt_pr == num,]
+  total = nrow(tmp)
+  cat(c("total : ", total,"\n"),file=feilere, append=TRUE, sep=" ")
+  #write(st,fileConn,append=TRUE)
+  
+  for (i in 0:num){
+    perc = round(100*i/num,2)
+    x = nrow(tmp[tmp$merge_rate == perc,])
+    cat(c("merge_rate = ",perc," : ", x," (",round(x/total*100,2),"%)\n"),file=filere, append=TRUE, sep=" ")
+   # write(st,fileConn,append=TRUE)
+  }
+  cat("\n",file=filere, append=TRUE, sep=" ")
+}
+
 
 #20
 print("How many developers work as submitters for each country?")

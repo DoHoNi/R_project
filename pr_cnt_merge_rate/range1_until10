@@ -1,0 +1,94 @@
+# What about case where developers submitted from  0 to 1  pull requests?
+total :  0 
+"merge"  "count"  "perc"
+
+# What about case where developers submitted from  1 to 2  pull requests?
+total :  7824 
+"merge"  "count"  "perc"
+"0:10"  3976  50.82
+"90:100"  3848  49.18
+
+# What about case where developers submitted from  2 to 3  pull requests?
+total :  2991 
+"merge"  "count"  "perc"
+"0:10"  922  30.83
+"50:60"  1049  35.07
+"90:100"  1020  34.1
+
+# What about case where developers submitted from  3 to 4  pull requests?
+total :  1479 
+"merge"  "count"  "perc"
+"0:10"  300  20.28
+"30:40"  379  25.63
+"60:70"  430  29.07
+"90:100"  370  25.02
+
+# What about case where developers submitted from  4 to 5  pull requests?
+total :  976 
+"merge"  "count"  "perc"
+"0:10"  166  17.01
+"20:30"  149  15.27
+"50:60"  223  22.85
+"70:80"  243  24.9
+"90:100"  195  19.98
+
+# What about case where developers submitted from  5 to 6  pull requests?
+total :  641 
+"merge"  "count"  "perc"
+"0:10"  91  14.2
+"20:30"  81  12.64
+"40:50"  95  14.82
+"60:70"  129  20.12
+"80:90"  149  23.24
+"90:100"  96  14.98
+
+# What about case where developers submitted from  6 to 7  pull requests?
+total :  471 
+"merge"  "count"  "perc"
+"0:10"  50  10.62
+"10:20"  38  8.07
+"30:40"  65  13.8
+"50:60"  71  15.07
+"60:70"  84  17.83
+"80:90"  85  18.05
+"90:100"  78  16.56
+
+# What about case where developers submitted from  7 to 8  pull requests?
+total :  311 
+"merge"  "count"  "perc"
+"0:10"  35  11.25
+"10:20"  14  4.5
+"20:30"  26  8.36
+"40:50"  37  11.9
+"50:60"  41  13.18
+"70:80"  65  20.9
+"80:90"  49  15.76
+"90:100"  44  14.15
+
+# What about case where developers submitted from  8 to 9  pull requests?
+total :  276 
+"merge"  "count"  "perc"
+"0:10"  27  9.78
+"10:20"  12  4.35
+"20:30"  24  8.7
+"30:40"  22  7.97
+"50:60"  35  12.68
+"60:70"  44  15.94
+"70:80"  47  17.03
+"80:90"  33  11.96
+"90:100"  32  11.59
+
+# What about case where developers submitted from  9 to 10  pull requests?
+total :  198 
+"merge"  "count"  "perc"
+"0:10"  12  6.06
+"10:20"  11  5.56
+"20:30"  8  4.04
+"30:40"  15  7.58
+"40:50"  17  8.59
+"50:60"  30  15.15
+"60:70"  31  15.66
+"70:80"  34  17.17
+"80:90"  17  8.59
+"90:100"  23  11.62
+

@@ -1,0 +1,140 @@
+# index  0 to 100  pull requests?
+"merge"  "count"  "perc"
+"0:10"  13  13
+"30:40"  26  26
+"60:70"  34  34
+"90:100"  27  27
+
+# index  100 to 200  pull requests?
+"merge"  "count"  "perc"
+"0:10"  16  15.84
+"30:40"  26  25.74
+"60:70"  30  29.7
+"90:100"  29  28.71
+
+# index  200 to 300  pull requests?
+"merge"  "count"  "perc"
+"0:10"  21  20.79
+"30:40"  20  19.8
+"60:70"  35  34.65
+"90:100"  25  24.75
+
+# index  300 to 400  pull requests?
+"merge"  "count"  "perc"
+"0:10"  8  7.92
+"30:40"  26  25.74
+"60:70"  36  35.64
+"90:100"  31  30.69
+
+# index  400 to 500  pull requests?
+"merge"  "count"  "perc"
+"0:10"  14  13.86
+"30:40"  21  20.79
+"60:70"  37  36.63
+"90:100"  29  28.71
+
+# index  500 to 600  pull requests?
+"merge"  "count"  "perc"
+"0:10"  24  23.76
+"30:40"  23  22.77
+"60:70"  33  32.67
+"90:100"  21  20.79
+
+# index  600 to 700  pull requests?
+"merge"  "count"  "perc"
+"0:10"  20  19.8
+"30:40"  31  30.69
+"60:70"  30  29.7
+"90:100"  20  19.8
+
+# index  700 to 800  pull requests?
+"merge"  "count"  "perc"
+"0:10"  23  22.77
+"30:40"  28  27.72
+"60:70"  27  26.73
+"90:100"  23  22.77
+
+# index  800 to 900  pull requests?
+"merge"  "count"  "perc"
+"0:10"  23  22.77
+"30:40"  33  32.67
+"60:70"  20  19.8
+"90:100"  25  24.75
+
+# index  900 to 1000  pull requests?
+"merge"  "count"  "perc"
+"0:10"  30  29.7
+"30:40"  23  22.77
+"60:70"  20  19.8
+"90:100"  28  27.72
+
+# index  0 to 100  pull requests?
+"merge"  "count"  "perc"
+"0:10"  13  13
+"30:40"  26  26
+"60:70"  34  34
+"90:100"  27  27
+
+# index  100 to 200  pull requests?
+"merge"  "count"  "perc"
+"0:10"  16  15.84
+"30:40"  26  25.74
+"60:70"  30  29.7
+"90:100"  29  28.71
+
+# index  200 to 300  pull requests?
+"merge"  "count"  "perc"
+"0:10"  21  20.79
+"30:40"  20  19.8
+"60:70"  35  34.65
+"90:100"  25  24.75
+
+# index  300 to 400  pull requests?
+"merge"  "count"  "perc"
+"0:10"  8  7.92
+"30:40"  26  25.74
+"60:70"  36  35.64
+"90:100"  31  30.69
+
+# index  400 to 500  pull requests?
+"merge"  "count"  "perc"
+"0:10"  14  13.86
+"30:40"  21  20.79
+"60:70"  37  36.63
+"90:100"  29  28.71
+
+# index  500 to 600  pull requests?
+"merge"  "count"  "perc"
+"0:10"  24  23.76
+"30:40"  23  22.77
+"60:70"  33  32.67
+"90:100"  21  20.79
+
+# index  600 to 700  pull requests?
+"merge"  "count"  "perc"
+"0:10"  20  19.8
+"30:40"  31  30.69
+"60:70"  30  29.7
+"90:100"  20  19.8
+
+# index  700 to 800  pull requests?
+"merge"  "count"  "perc"
+"0:10"  23  22.77
+"30:40"  28  27.72
+"60:70"  27  26.73
+"90:100"  23  22.77
+
+# index  800 to 900  pull requests?
+"merge"  "count"  "perc"
+"0:10"  23  22.77
+"30:40"  33  32.67
+"60:70"  20  19.8
+"90:100"  25  24.75
+
+# index  900 to 1000  pull requests?
+"merge"  "count"  "perc"
+"0:10"  30  29.7
+"30:40"  23  22.77
+"60:70"  20  19.8
+"90:100"  28  27.72
+

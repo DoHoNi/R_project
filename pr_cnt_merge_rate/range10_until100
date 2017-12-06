@@ -1,0 +1,133 @@
+# What about case where developers submitted from  0 to 10  pull requests?
+total :  15167 
+"merge"  "count"  "perc"
+"0:10"  5579  36.78
+"10:20"  75  0.49
+"20:30"  288  1.9
+"30:40"  481  3.17
+"40:50"  149  0.98
+"50:60"  1449  9.55
+"60:70"  718  4.73
+"70:80"  389  2.56
+"80:90"  333  2.2
+"90:100"  5706  37.62
+
+# What about case where developers submitted from  10 to 20  pull requests?
+total :  998 
+"merge"  "count"  "perc"
+"0:10"  86  8.62
+"10:20"  34  3.41
+"20:30"  49  4.91
+"30:40"  52  5.21
+"40:50"  55  5.51
+"50:60"  94  9.42
+"60:70"  126  12.63
+"70:80"  129  12.93
+"80:90"  165  16.53
+"90:100"  208  20.84
+
+# What about case where developers submitted from  20 to 30  pull requests?
+total :  349 
+"merge"  "count"  "perc"
+"0:10"  19  5.44
+"10:20"  13  3.72
+"20:30"  6  1.72
+"30:40"  17  4.87
+"40:50"  27  7.74
+"50:60"  22  6.3
+"60:70"  41  11.75
+"70:80"  44  12.61
+"80:90"  85  24.36
+"90:100"  75  21.49
+
+# What about case where developers submitted from  30 to 40  pull requests?
+total :  204 
+"merge"  "count"  "perc"
+"0:10"  16  7.84
+"10:20"  5  2.45
+"20:30"  9  4.41
+"30:40"  9  4.41
+"40:50"  7  3.43
+"50:60"  12  5.88
+"60:70"  22  10.78
+"70:80"  19  9.31
+"80:90"  42  20.59
+"90:100"  63  30.88
+
+# What about case where developers submitted from  40 to 50  pull requests?
+total :  139 
+"merge"  "count"  "perc"
+"0:10"  7  5.04
+"10:20"  5  3.6
+"20:30"  4  2.88
+"40:50"  4  2.88
+"50:60"  12  8.63
+"60:70"  13  9.35
+"70:80"  18  12.95
+"80:90"  35  25.18
+"90:100"  41  29.5
+
+# What about case where developers submitted from  50 to 60  pull requests?
+total :  67 
+"merge"  "count"  "perc"
+"0:10"  4  5.97
+"10:20"  1  1.49
+"20:30"  2  2.99
+"30:40"  2  2.99
+"40:50"  3  4.48
+"50:60"  3  4.48
+"60:70"  5  7.46
+"70:80"  8  11.94
+"80:90"  13  19.4
+"90:100"  26  38.81
+
+# What about case where developers submitted from  60 to 70  pull requests?
+total :  63 
+"merge"  "count"  "perc"
+"0:10"  2  3.17
+"20:30"  2  3.17
+"30:40"  1  1.59
+"40:50"  2  3.17
+"50:60"  3  4.76
+"60:70"  3  4.76
+"70:80"  11  17.46
+"80:90"  10  15.87
+"90:100"  29  46.03
+
+# What about case where developers submitted from  70 to 80  pull requests?
+total :  66 
+"merge"  "count"  "perc"
+"0:10"  6  9.09
+"10:20"  2  3.03
+"50:60"  3  4.55
+"60:70"  4  6.06
+"70:80"  8  12.12
+"80:90"  13  19.7
+"90:100"  30  45.45
+
+# What about case where developers submitted from  80 to 90  pull requests?
+total :  41 
+"merge"  "count"  "perc"
+"0:10"  1  2.44
+"10:20"  1  2.44
+"30:40"  3  7.32
+"50:60"  1  2.44
+"60:70"  2  4.88
+"70:80"  6  14.63
+"80:90"  7  17.07
+"90:100"  20  48.78
+
+# What about case where developers submitted from  90 to 100  pull requests?
+total :  48 
+"merge"  "count"  "perc"
+"0:10"  3  6.25
+"10:20"  1  2.08
+"20:30"  1  2.08
+"30:40"  3  6.25
+"40:50"  1  2.08
+"50:60"  1  2.08
+"60:70"  1  2.08
+"70:80"  5  10.42
+"80:90"  12  25
+"90:100"  20  41.67
+

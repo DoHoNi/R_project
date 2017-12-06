@@ -217,7 +217,15 @@ merge_rate = 25 : 149 (15.26%)
 merge_rate = 0 : 166 (17.00%)
 
 ## What about case where developers submitted 5 pull requests?
+total_pr : 641
+merge_rate = 100 : 96 (14.97%)
+merge_rate = 80 : 149 (23.24%)
+merge_rate = 60 : 129 (20.12%)
+merge_rate = 40 : 95 (14.82%)
+merge_rate = 20 : 81 (12.63%)
+merge_rate = 0 : 91 (14.19%)
 
+// you can see more result of above questions at "num_pr_result" file.
 
 #20 How many developers work as submittes for each country? (cnt_prs_country)
 there is 123 countries.
